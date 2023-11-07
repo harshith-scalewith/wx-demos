@@ -153,7 +153,25 @@ def main():
         impacts = []
         impacts_explanation = []
 
+        print("---DEBUG---")
+        #print(query_result['results'])
+
+        # for key, value in query_result.items():
+        #     print(key)
+        print(type(query_result['results']), len(query_result['results']))
+        #print(type(query_result['results'][0]))
+        print(query_result['results'][0]['document_passages'])
+        #print(query_result['results'][0]['extracted_metadata']['filename'])
+
+        print(query_result['results'][1]['document_passages'])
+        #print(query_result['results'][1]['extracted_metadata']['filename'])
+        #print(query_result['results']['extracted_metadata']['filename'])
+
+
+        print("---END DEBUG---")
+
         for result in query_result['results']:
+
             file_name = result['extracted_metadata']['filename']
             log_file.write(f"\nFound relevant passages in source file: {file_name}")
 

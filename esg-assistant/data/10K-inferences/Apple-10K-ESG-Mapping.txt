@@ -4,6 +4,7 @@ Cause areas Apple focuses on:
 - Diversity, Equity, and Inclusion
 - Human Resources
 - Employee Wellbeing
+
 - Human Rights
 - Safety and Security
 - Economic Empowerment and Workforce Development
@@ -17,11 +18,11 @@ Explanation:
 
 Document Offset: 18482
 
-- Diversity, Equity, and Inclusion: This cause area is selected because the company highlights its commitment to creating an inclusive workplace, increasing diverse representation, and promoting equitable practices.
+- Diversity, Equity, and Inclusion: This cause area is selected because the company highlights its commitment to creating an inclusive workplace, increasing diverse representation, fostering an inclusive culture, and supporting equitable pay and opportunities for all employees.
 
-- Human Resources: The passage discusses the company's focus on employee well-being, talent development, and ensuring a supportive work environment.
+- Human Resources: The passage discusses the company's focus on human capital, including hiring practices, employee engagement, and investments in employee growth and development.
 
-- Employee Wellbeing: The company emphasizes providing a safe and supportive environment for all team members and investing in resources to help them succeed personally and professionally.
+- Employee Wellbeing: The company emphasizes providing a supportive environment for its team members, ensuring they have the necessary resources to meet their needs and succeed professionally and personally.
 
 Document Offset: 18257
 
@@ -49,13 +50,13 @@ Document Offset: 158944
 
 - Education: Apple has a large investment in education through its ConnectED program, which provides technology and resources to schools across the country. While not explicitly mentioned here, it falls within the purview of educational initiatives undertaken by corporations like Apple.
 
-- Food and Hunger: Although there isn’t any direct mention of food or hunger issues specifically within this text section provided, we know that proper nutrition leads to better productivity. So indirectly, this passage talks about improving people's lives so they can have access to good food leading to zero hunger.
+- Food and Hunger: Although there isn�t any direct mention of food or hunger issues specifically within this text section provided, we know that proper nutrition leads to better productivity. So indirectly, this passage talks about improving people's lives so they can have access to good food leading to zero hunger.
 
 - Public Health: Passage discusses how much money apple spends on taxes, some of which goes towards funding public health programs. Additionally, an emphasis on sustainability practices often contributes positively to overall community wellness efforts.
 
-- Science and Technology: Apple invests heavily in research and development, which is evident from the mention of 'Research and development credit.' Also, the company uses advanced technologies such as artificial intelligence, machine learning, etc., in their products and services. Both aspects are relevant to science and technology advancements.
+- Science and Technology: Apple invests heavily in research and development, which is evident from the mention of 'Research and development credit.' Also, the use of advanced technologies such as artificial intelligence, machine learning, and robotics in manufacturing processes contribute toward scientific progress.
 
-- Sustainability and Environment: The passage highlights Apple's focus on environmental sustainability by mentioning renewable energy sources used by them. They aim at reducing carbon footprints while promoting eco-friendliness throughout all operations – aligning perfectly with goals set forth under “Sustainability & Environment” categories!
+- Sustainability and Environment: The document highlights Apple's focus on environmental responsibility by mentioning renewable energy sources used throughout operations and supply chain partnerships designed to reduce carbon footprints.
 
 Demographics Apple focuses on:
 - People of Color
@@ -66,6 +67,7 @@ Demographics Apple focuses on:
 - People Experiencing Hunger or Malnourishment
 - People Experiencing Mental Illness
 - People Experiencing Viruses and Diseases
+
 - People Identifying as LGBTQ+
 - People Experiencing Obesity and/or Diabetes
 - People experiencing poverty
@@ -110,29 +112,27 @@ Document Offset: 158944
 
 Impact Areas Apple focuses on:
 - Increase access to and acquire employment
-- Achieve equality/eliminate discrimination
+- Achieve equality/ eliminate discrimination
 - Increase active participation in society
+
 - Promote economic growth
 - Advocate for/Promote Policy Change
 
 Explanation:
 Document Offset: 18482
-- Increase access to and acquire employment: Talented, motivated, and dedicated teams create job opportunities.
-- Achieve equality/eliminate discrimination: Equal opportunity employer committed to inclusion and diversity.
-- Increase active participation in society: Supports equitable pay and access to opportunity for all employees.
-Document offset: 18257
+- Increase access to and acquire employment: Talented, Motivated & dedicated team, inclusive, safe and supportive environment, equal opportunity employer, competitive and equitable compensations, employee's growth and developments.
+Achieve equality/ eliminate discrimination: Equal opportunity employer, committed to inclusion and diversity, increasing diverse representation, fostering an inclusive culture, supporting equitable pay and access to opportunities for all employees.
+Increase active participation in society: Open and honest communications, open, collaborative work environments, everyone contributes, grows and succeeds.
+Document Offset: 18257
 - Increase access to and acquire employment: The company's commitment to creating an inclusive and diverse work environment promotes equal opportunities for everyone. They offer various benefits and invest in employee growth and development, supporting access to employment.
 - Promote economic growth: By having a large number of full-time equivalent employees and offering them competitive compensation packages, the company contributes to economic growth.
-- Achieve equality/ eliminate discrimination: The company is committed to being an equal opportunity employer and provides a workplace free of harassment or discrimination, advocating for equality and eliminating any form of discrimination.
-- Increase active participation in society: Through its policies and practices, the company encourages employees to participate actively in society by providing resources and support for their professional and personal lives.
-- Advocate for/promote policy change: The company's dedication to building a more inclusive workforce that represents the community it serves aligns with advocating for policy changes that foster diversity and equality.
-Document offset: 212221
-- Increase access to and acquire employment: Job opportunities at Apple.
-- Promote economic growth: Apple's success contributes to economic growth.
-- Advocate for/promote policy change: Apple advocates for policies supporting their business interests.
+- Achieve equality/ eliminate discrimination: The company is committed to being an equal opportunity employer and provides a workplace free of harassment or discrimination, working towards achieving equality and eliminating discrimination.
+- Increase active participation in society: The company encourages its employees to participate actively in their personal and professional lives, contributing to society.
+Document Offset: 212221
+-Advocate for/promote policy change: This document contains information about the company's executive cash incentive plan, subsidiaries, consent of independent registered public accounting firm, power of attorney, rule 13a-14(a)/15d-14(a) certification of chief executive officer and chief financial officer, section 1350 certifications of chief executive officer and chief financial officer, inline XBRL document set for the consolidated financial statements and accompanying notes, and exhibits. It also includes a form 10-k summary and signatures of officers. As it doesn't directly relate to advocacy or promotion of policy change, it does not map to the impact area.
 Document Offset: 19855
-- Increase access to and acquire employment: By offering various benefits and investing in tools and resources, the company increases opportunities for employees' success. 
-- Promote economic growth: By being committed to building a more inclusive workforce, supporting equitable pay, and providing training, the company promotes economic growth.
-- Achieve equality/eliminate discrimination: The company's commitment to inclusion and diversity eliminates discriminatory practices.
-- Increase active participation in society: Open and honest communication creates a collaborative work environment where everyone can participate and succeed.
-- Advocate for/Promote Policy Change: The company takes measures to mitigate hazards and protect employees, customers, and visitors, which advocates for policy change.
+- Increase access to and acquire employment: By offering various benefits and investing in tools and resources, the company increases opportunities for employees' growth and development.
+- Promote economic growth: The company's commitment to building a more inclusive workforce and supporting equitable pay and access to opportunities promotes economic growth.
+- Achieve equality/ eliminate discrimination: The company's efforts to increase diverse representation at every level and foster an inclusive culture aim to achieve equality and eliminate discrimination.
+- Increase active participation in society: Open and honest communication within the company creates a collaborative work environment where everyone can contribute and succeed.
+- Advocate for/Promote Policy Change: The company takes measures to mitigate potential workplace risks and protect employees' safety and security, which advocates for policy change.

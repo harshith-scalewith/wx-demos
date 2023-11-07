@@ -1,6 +1,6 @@
 bs4
-dotenv
-json
+python-dotenv
+lxml
 ibm_watson
 ibm-generative-ai
 ibm_cloud_sdk_core

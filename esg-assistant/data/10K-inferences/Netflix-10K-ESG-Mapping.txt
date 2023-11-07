@@ -3,6 +3,7 @@ ESG mapping for Netflix
 Cause areas Netflix focuses on:
 - Arts and Culture
 - Public Health
+
 - Diversity, Equity, and Inclusion
 - Education
 - Economic Empowerment and Workforce Development
@@ -35,6 +36,7 @@ Document Offset: 14732
 
 Demographics Netflix focuses on:
 - People Experiencing Poverty
+
 - People experiencing poverty
 - People experiencing homelessness
 - People experiencing hunger or malnourishment
@@ -47,6 +49,11 @@ Demographics Netflix focuses on:
 Explanation:
 Document offset: 138601
 - People experiencing poverty: Reference to the annual meeting of stockholders and the proxy statement suggests that the document relates to corporate governance and wealthy shareholders, indicating a disparity between the wealthy owners and those experiencing poverty.
+- People experiencing poverty: Not explicitly mentioned but related to the context of legal and bureaucratic obstacles faced by immigrants and refugees.
+- People experiencing homelessness: Not explicitly mentioned but related to the context of legal and bureaucratic obstacles faced by immigrants and refugees.
+- People experiencing hunger or malnourishment: Not explicitly mentioned but related to the context of legal and bureaucratic obstacles faced by immigrants and refugees.
+- People experiencing mental illness: Not explicitly mentioned but related to the context of legal and bureaucratic obstacles faced by immigrants and refugees.
+- People experiencing viruses and diseases: Not explicitly mentioned but related to the context of legal and bureaucratic obstacles faced by immigrants and refugees.
 Document Offset: 4356
 - People experiencing poverty: Reference to "liquidity" and "sufficiency of capital resources."
 - People experiencing homelessness: No direct mention.
@@ -60,20 +67,28 @@ Document Offset: 14732
 - People experiencing poverty: Training recruiters to hire more inclusively.
 
 Impact Areas Netflix focuses on:
-- Improve transparency & disclosure
 - Increase access to quality education programs and services
 - Reduce disease/improve health
 
+- Increase active participation in society
+- Advocate for/Promote Policy Change
+- Ensure STEM skills proficiency
+- Increase access to and acquire employment
+- Promote economic growth
+- Achieve equality/eliminate discrimination
+
 Explanation:
-The document includes various exhibits related to regulatory compliance, such as forms 10-K and 8-K, and certifications pursuant to Sections 302 and 906 of the Sarbanes-Oxley Act of 2002. Additionally, it includes a power of attorney granting certain individuals the authority to sign and file documents with the Securities and Exchange Commission. Therefore, it maps to impact areas related to regulatory compliance and legal protection.
+Document Offset: 138601
+- Strengthen governance & transparency: This text refers to corporate governance practices such as disclosures related to security ownership, management's relationship with the board, and auditor fees, indicating efforts towards strengthening governance and transparency.
+The document includes various references to compliance with laws and regulations related to financial reporting, such as Sections 302 and 906 of the Sarbanes-Oxley Act of 2002. Additionally, it includes an exhibit listing significant subsidiaries and another exhibit containing the consent of Ernst & Young LLP, indicating compliance with auditing standards. Therefore, this document maps to the "Compliance" impact area.
 Document Offset: 4356
 - Increase access to quality education programs and services: The document mentions "our ability to improve our content offerings and service" which could lead to improved educational content.
-- Reduce disease/improve health: The document mentions "impact of foreign exchange rate fluctuations, including on net income, revenues and average revenues per paying member" which could have an indirect positive effect on health outcomes if people are able to afford better healthcare due to favorable currency rates.
+- Reduce disease/improve health: The document mentions "impact of foreign exchange rate fluctuations, including on net income, revenues and average revenues per paying member" which could have an indirect positive effect on health outcomes through better financial stability.
 Document Offset: 14732
 - Increase access to quality education programs and services: Training recruiters to hire more inclusively and supporting employee resource groups.
 - Increase active participation in society: Building diversity, inclusivity, and equity into all aspects of operations globally.
-- Advocate for/promote policy change: Publishing an Inclusion Report and EEO-1 reports on the website.
-- Achieve equality/ eliminate discrimination: Fostering a work environment that is culturally diverse, inclusive, and equitable.
-- Increase access to and acquire employment: Offering programs and workshops to provide skills and coaching to employees.
+- Advocate for/Promote Policy Change: Publishing annual Inclusion reports and EEO-1 reports online.
+- Ensure STEM skills proficiency: Offering programs and workshops to provide skills and coaching to employees.
+- Increase access to and acquire employment: Paying employees at the top of their personal market and offering choices in compensation forms.
 - Promote economic growth: Operating a global business of providing compelling content to entertain the world.
-- Ensure STEM skills proficiency: Not mentioned explicitly but supported by offering programs and workshops.
+- Achieve equality/eliminate discrimination: Fostering a work environment that is culturally diverse, inclusive, and equitable.

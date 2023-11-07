@@ -3,6 +3,7 @@ ESG mapping for Microsoft
 Cause areas Microsoft focuses on:
 - Diversity, Equity, and Inclusion
 - Economic Empowerment and Workforce Development
+
 - Arts and Culture
 - Education
 - Human Resources
@@ -56,6 +57,7 @@ Demographics Microsoft focuses on:
 - People Experiencing Hunger or Malnourishment
 - People Experiencing Mental Illness
 - People Experiencing Viruses and Diseases
+
 - People who identify as LGBTQ+
 - People with Disabilities/Differently Abled
 - People Identifying as LGBTQ+
@@ -101,31 +103,42 @@ Document Offset: 22550
 - People Experiencing Poverty: Efforts to provide affordable broadband, devices, and digital literacy training across various geographies, including rural areas.
 
 Impact Areas Microsoft focuses on:
+- Increase access to and acquire employment
+- Promote equal treatment/ eliminate discrimination
+- Increase active participation in society
+- Advocate for/Promote Policy Change
+
+- Ensure STEM skills proficiency
+- Promote economic growth
+- Achieve equality/ eliminate discrimination
+- Advocate for/ promote policy change
 
 Explanation:
 Document Offset: 28252
 - Increase access to and acquire employment: Creating a respectful, rewarding, and inclusive work environment can help people get jobs.
 - Promote equal opportunity/ eliminate discrimination: Supporting multiple Employee Resource Groups promotes diversity and inclusion.
-- Increase active participation in society: Accountability for driving global systematic change creates an inclusive work environment.
-- Advocate for/ promote policy change: Evaluations of contributions to employee culture and diversity influence policies.
-Document offset: 28971
+- Increase active participation in society: Accountability for driving global systematic change in the workforce and creating an inclusive work environment can lead to engagement in societal issues.
+- Advocate for/ promote policy change: Evaluations of contributions to employee culture and diversity can result in changes in policies.
+Document Offset: 28971
 - Increase access to and acquire employment: The organization's efforts to create an inclusive work environment and provide opportunities for professional growth and development can help individuals acquire employment.
-- Promote equal treatment/ eliminate discrimination: The organization's commitment to diversity and inclusion, holding themselves accountable for driving global systematic change in their workforce and creating an inclusive work environment, can promote equal treatment and eliminate discrimination.
+- Promote equal treatment/ eliminate discrimination: The organization's commitment to diversity and inclusion, holding themselves accountable for driving global systemic change in their workforce and creating an inclusive work environment, can promote equal treatment and eliminate discrimination.
 - Increase active participation in society: By supporting multiple highly active Employee Resource Groups, the organization encourages its employees to engage actively in society and promotes a sense of community.
-- Advocate for/promote policy change: The organization's transparency regarding workforce metrics and commitment to pay equity demonstrates advocacy for policy changes that promote equality and fairness.
-- Increase access to and acquire employment: The organization's efforts to recruit, develop, and retain talents from diverse backgrounds can lead to job opportunities.
-- Promote economic growth: By hiring and developing people, organizations contribute to economic growth.
-- Achieve equality / eliminate discrimination: Organizations prioritizing diversity and inclusion aim to address disparities and prejudice.
-- Increase active participation in society: Organization's initiatives encourage staff engagement and empower them to actively impact their communities.
-- Advocate for/promote policy change: Companies advocating for policies supporting diversity, equity, and inclusion influence positive societal shifts.
-Document offset: 29307
+- Advocate for/Promote Policy Change: The organization's transparency regarding workforce metrics and commitment to pay equity demonstrates advocacy for policy changes that promote equality and fairness.
+Document Offset: 27782
+- Increase access to and acquire employment: Recruiting and developing diverse talent increases job opportunities.
+- Ensure STEM skills proficiency: Training workers on generative AI improves technical abilities.
+- Promote economic growth: Creating an inclusive work environment contributes to economic prosperity.
+- Achieve equality/ eliminate discrimination: Fostering diversity and inclusion promotes equal opportunity.
+- Increase active participation in society: Encouraging employees' personal and professional growth enhances community involvement.
+- Advocate for/promote policy change: Supporting policies that advance equitable practices influences societal improvement.
+Document Offset: 29307
 - Increase access to and acquire employment: The company's efforts to create an inclusive work environment and provide opportunities for all employees can lead to increased access to employment.
 - Promote equal treatment/ eliminate discrimination: The company's focus on diversity and inclusion, as well as its monitoring of pay equity and career progress, can help promote equal treatment and eliminate discrimination.
-- Increase active participation in society: By supporting employee resource groups and encouraging managers to evaluate and recommend rewards based on collaboration and contribution to the success of colleagues, the company can foster a sense of community and encourage active participation in society.
-- Advocate for/promote policy change: The company's commitment to transparency and public disclosure of workforce metrics can advocate for and promote policy changes that support diversity and inclusion in the workplace.
+- Increase active participation in society: By supporting multiple Employee Resource Groups and encouraging managers to evaluate and recommend rewards based on collaboration and contribution to the success of colleagues, the company can foster a sense of community and encourage active participation in society.
+- Advocate for/Promote Policy Change: The company's commitment to transparency and public disclosure of progress on workforce metrics, as well as its emphasis on holding itself accountable for driving global systemic change, can advocate for policy changes that promote diversity and inclusion.
 Document Offset: 22550
-- Increase access to and acquire employment: The initiatives aim to increase representation and strengthen inclusion in the workplace.
-- Promote economic growth: The initiatives aim to foster societal change and create new opportunities.
-- Achieve equality/ eliminate discrimination: The initiatives aim to address racial injustice and inequity.
-- Increase active participation in society: The initiatives aim to engage the community and encourage digital literacy training.
-- Advocate for/promote policy change: The initiatives aim to advance racial equity and fairness in the justice system.
+- Increase access to and acquire employment: The initiatives aim to increase representation and strengthen inclusion in leadership positions.
+- Promote economic growth: The initiatives aim to engage the ecosystem and use the company's balance sheet to foster societal change and create new opportunities.
+- Achieve equality/ eliminate discrimination: The initiatives aim to address racial injustice and inequity in the US, particularly for black and African American communities.
+- Increase active participation in society: The initiatives aim to strengthen communities and engage the ecosystem to promote societal change.
+- Advocate for/promote policy change: The initiatives aim to advocate for policies and practices that promote racial equity and fairness in the justice system.

@@ -79,26 +79,24 @@ Impact Areas Ford focuses on:
 - Increase access to and acquire employment
 - Promote economic growth
 
+- Achieve equality/ eliminate discrimination
+- Increase active participation in society
+- Advocate for/Promote Policy Change
 
 Explanation:
 Document Offset: 61287
 - Increase diversity and inclusion: Creating a culture of inclusion increases diversity and promotes equity.
-- Increase access to and acquire employment: By fostering an inclusive environment, there'll be equal opportunities for everyone.
-- Promote economic growth: An inclusive environment leads to better productivity leading to economic growth.
-Document offset: 62113
-- Increase diversity and inclusion: Creating a culture of inclusion at Ford will allow diverse employees to thrive.
-- Increase access to and acquire employment: Embedding DEI into corporate strategy and governance will help ensure that there's a diverse pool of candidates for hiring managers to choose from. It also helps grow representation of diverse talent throughout the pipeline.
-- Promote economic growth: A diverse and inclusive workplace fostered by initiatives like ERGs and FAB councils can lead to better ideas and innovation, leading to economic growth.
-- Achieve equality/ eliminate discrimination: By focusing strongly on racial equity and making sure that revisions to employee behavior enable an inclusive culture, it eliminates discriminatory practices within the company.
+- Increase access to and acquire employment: By fostering an inclusive environment, it becomes easier for individuals to find and secure jobs within the company.
+- Promote economic growth: A diverse and inclusive workplace leads to better decision making, innovation, and productivity, ultimately contributing to economic growth.
+Document Offset: 62113
+- Increase diversity and inclusion: Creating a culture of inclusion at Ford increases diversity and promotes equality.
+- Increase access to and acquire employment: Ford's DEI initiatives promote equal opportunities for employment.
+- Promote economic growth: A diverse and inclusive workplace fosters creativity and innovation leading to economic growth.
+- Achieve equality/ eliminate discrimination: Embedding DEI into corporate strategy and governance eliminates discrimination and promotes equality.
 Document Offset: 62406
 - Achieve equality/ eliminate discrimination: Creating a culture of inclusion eliminates discrimination.
 - Increase active participation in society: Representation of diverse talents increases participation.
-- Advocate for/promotes policy change: Embedding DEI into corporate strategy advocates for policy changes.
-Document offset: 367854
-- Increase access to and acquire employment: The report discusses job opportunities at Ford Motor Company.
-- Promote economic growth: The company's success contributes to economic growth.
-- Advocate for/promote policy change: The document includes information about compliance with laws and regulations.
-Document offset: 368365
-- Increase access to and acquire employment: The report discusses instruments defining the right of holders of certain issues of long term debts that may help promote job opportunities.
-- Promote economic growth: The company's agreement to furnish copies of instruments to the Securities and exchange commission upon request will contribute to economic development.
-- Advocate for/promote policy change: The signature of directors and officers of Ford Motor Company in compliance with section 13 or 15(d) of the securities exchange act of 1934 advocates for policy change.
+- Advocate for/Promote Policy Change: Embedding DEI into corporate strategy advocates policy change.
+The document mentions that instruments defining the rights of holders of certain issues of long-term debt of Ford and of certain consolidated subsidiaries and of any unconsolidated subsidiary, for which financial statements are required to be filed with this report, have not been filed as exhibits to this report because the authorized principal amount of any one of such issues does not exceed 10% of the total assets of Ford and our subsidiaries on a consolidated basis. This implies that Ford is complying with regulatory requirements set forth by the Securities and Exchange Commission, indicating advocacy for or promotion of policy change. Therefore, it falls under the "Advocate for/promote policy change" impact area.
+Document Offset: 368365
+- Increase access to and acquire employment: The signature of the controller and principal accounting officer, Cathy O'Callaghan, indicates her role in managing finances at Ford Motor Company. This could lead to job opportunities in finance within the company. Additionally, signing by director and president, James D. Farley, Jr., suggests possible openings in leadership positions.

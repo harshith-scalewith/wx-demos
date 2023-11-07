@@ -3,6 +3,7 @@ ESG mapping for Verizon
 Cause areas Verizon focuses on:
 - Diversity, Equity, and Inclusion
 - Economic Empowerment and Workforce Development
+
 - Sustainability and Environment
 - Human Rights
 - Labor Practices
@@ -47,6 +48,7 @@ Demographics Verizon focuses on:
 - Women and Girls
 - People of Color
 - People Experiencing Poverty
+
 - People Experiencing Homelessness
 - People Experiencing Hunger or Malnourishment
 - People Experiencing Mental Illness
@@ -54,9 +56,9 @@ Demographics Verizon focuses on:
 
 Explanation:
 Document Offset: 53273
-- Women and Girls: Representation in workforce and leadership positions.
-- People of Color: Representation in workforce and leadership positions.
-- People Experiencing Poverty: Not explicitly mentioned but could potentially benefit from job training and education programs.
+- Women and Girls: Representation of females in the workforce and leadership positions.
+- People of Color: Strong representation of minority groups in the workforce and leadership positions.
+- People Experiencing Poverty: Tuition reimbursement programs and career development support to help employees improve their socioeconomic status.
 Document Offset: 52674
 - People of Color: Representation of women and people of color in the workforce.
 - Women and Girls: Representation of women in the workforce.
@@ -85,28 +87,45 @@ Impact Areas Verizon focuses on:
 - Increase access to and acquire employment
 - Promote equal opportunity/ eliminate discrimination
 - Increase active participation in society
-- Achieve financial stability
+- Ensure STEM skills proficiency
+
+- Promote economic growth
+- Achieve equality/ eliminate discrimination
 - Advocate for/Promote Policy Change
+- Achieve financial stability
+- Increase access to quality education programs and services
+- Increase peace through conflict resolution
+- Reduce trauma
+- Advocate for/promote policy change
 
 Explanation:
 Document Offset: 53273
-- Increase access to and acquire employment: The company offers training, tuition reimbursement, and career development support to help employees advance professionally. 
-- Promote equal opportunity/ eliminate discrimination: Commitment to diversity and inclusion has led to a strong representation of women and people of color in the workforce. 
-- Increase active participation in society: By creating a workplace where employees feel seen and heard, they will be able to participate actively in society.
-- Ensure STEM skills proficiency: Through on-the-job training and career development support, employees have the opportunity to develop valuable STEM skills.
-Document offset: 52674
-- Increase access to and acquire employment: The company tries to attract the right talents and maintain a diverse workforce. It provides on-the-job training, tuition reimbursement programs, and career development support to its employees. This will help them get employed and advance in their careers.
-- Promote economic growth: By having a large number of employees (117,100) and committing to diversity and inclusion, Verizon contributes significantly to the economy. Additionally, it promotes economic growth by providing jobs and career advancement opportunities.
-- Achieve equality/ eliminate discrimination: Verizon has made a long-standing commitment to diversity and inclusion, which has led to a good representation of women and people of color in their workforce. They provide equal opportunity and ensure that everyone feels included and valued.
-- Increase active participation in society: Verizon creates a workplace where employees are empowered to share their authentic selves and feel seen and heard as vital contributors to Verizonâ€™s corporate purpose. This encourages them to participate actively in society.
-- Advocate for/promote policy change: Verizon advocates for policies that promote diversity and inclusion in the workplace. Its commitment to diversity and inclusion has resulted in a strong representation of women and people of color.
+- Increase access to and acquire employment: The company wants to attract and retain top talent.
+- Promote equal opportunity/ eliminate discrimination: They have a diverse workforce and promote diversity and inclusion.
+- Increase active participation in society: By creating a culture of continuous learning and engagement they encourage employee involvement.
+- Ensure STEM skills proficiency: Through on-the-job training opportunities, tuition reimbursement programs and career development support they ensure their employees have up-to-date skills.
+Document Offset: 52674
+- Increase access to and acquire employment: The company tries to attract the right talents and maintain a diverse workforce. It provides on-the-job training, tuition reimbursements, and career development support.
+- Promote economic growth: By having a large number of employees (117,100) and committing to being an employer of choice, Verizon contributes significantly to the economy.
+- Achieve equality/ eliminate discrimination: Verizon promotes diversity and inclusion in its hiring process and has a good representation of women and people of color in its workforce.
+- Increase active participation in society: Verizon creates a workplace where employees are empowered to share their authentic selves and feel seen and heard as vital contributors to Verizon’s corporate purpose. This encourages them to participate actively in society.
+- Advocate for/Promote Policy Change: Verizon advocates for policies that promote diversity and inclusion in the workplace.
+Document Offset: 51743
+- Increase access to and acquire employment: Verizon's commitment to being an employer of choice and developing human capital resources aligns with this impact area. 
+- Ensure STEM skills proficiency: Verizon's focus on attracting and developing talents with high-value skills and expertise, as well as providing best-in-class educational programs and exceptional development experiences, contributes to this impact area.
+- Promote economic growth: By investing in employee development and creating a skilled workforce, Verizon promotes economic growth. Additionally, compliance with regulations regarding intercarrier compensation and network access supports a stable telecommunications infrastructure, essential for economic activity.
+- Achieve equality/ eliminate discrimination: Verizon's emphasis on diversity and inclusion in hiring and retention practices helps promote equal opportunities and eliminates discrimination.
+- Increase active participation in society: By inspiring individuals to build long-term careers and fostering a culture of engagement, Verizon encourages active participation in society.
+- Advocate for/Promote Policy Change: Verizon's efforts to adhere to regulations and participate in the discussion around intercarrier compensation and network access contribute to advocacy for policy change.
+- Achieve financial stability: Through responsible management and strategies for sustainable growth, Verizon works towards achieving financial stability. This benefits not only the company but also its stakeholders, including employees and customers.
+- Increase access to and
 Document Offset: 53441
-- Increase access to and acquire employment: Educational programs and exceptional development experience will help people get jobs. 
-- Promote equal opportunity/ eliminate discrimination: Diversity and inclusion initiatives promote equal opportunity.
-- Increase active participation in society: Employees feeling included increases societal participation.
-- Achieve financial stability: Tuition reimbursement helps achieve financial stability.
+- Increase access to and acquire employment: Educational programs and exceptional development experience will help employees get better jobs. Meaningful work and upscaling opportunities also contribute to this impact area. 
+- Promote equal opportunity/ eliminate discrimination: Commitment to diversity and inclusion promotes equal opportunity. Representation of women and people of color contributes to this impact area. 
+- Increase active participation in society: Employees feeling seen and heard increases their ability to participate in society. 
+- Advocate for/ promote policy change: Respect for employee rights to freedom of association and collective bargaining advocates for policy change.
 Document Offset: 54141
-- Increase access to and acquire employment: Tuition reimbursement programs and career development support.
-- Promote equal opportunity/ eliminate discrimination: Commitment to diversity and inclusion. Representation of women and people of color. Respect for employees rights to freedom of association and collective bargaining.
-- Increase active participation in society: Engagement with employee representative bodies such as works councils. Discussion between union leaders and company leaders.
-- Advocate for/Promote Policy Change: Oversight by board of directors over human capital management practices.
+- Increase access to and acquire employment: Tuition reimbursement programs and career development support are mentioned. 
+- Promote equal opportunity/ eliminate discrimination: Mention of diverse representation and gender/racial statistics. 
+- Increase active participation in society: Employee engagement and empowerment initiatives are described. 
+- Advocate for/Promote Policy Change: Respect for workers' rights to collective bargaining and engagement with employee representative bodies is highlighted.
