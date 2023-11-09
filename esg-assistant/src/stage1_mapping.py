@@ -22,6 +22,23 @@ cause_areas_prompt_file = "../data/prompts/cause_areas_mapping.txt"
 demographics_prompt_file = "../data/prompts/demographics_mapping.txt"
 impact_areas_prompt_file = "../data/prompts/impact_areas_mapping.txt"
 
+ORIGINAL_CAUSE_AREAS = [
+    '- Arts and Culture', 
+    '- Animal Rights & Welfare', 
+    '- Restorative and Criminal Justice',
+    '- Disaster Response, Relief, and Recovery',
+    '- Diversity, Equity and Inclusion',
+    '- Economic Empowerment and Workforce Development',
+    '- Education',
+    '- Food and Hunger',
+    '- Housing and Homelessness',
+    '- Sustainability and Environment',
+    '- Human Rights', 
+    '- Civic Engagement', 
+    '- Public Health', 
+    '- Science and Technology', 
+    '- Poverty Alleviation'
+    ]
 
 def init():
     global discovery
@@ -96,7 +113,11 @@ def create_mapping_file(company, cause_areas, cause_areas_explanation, demograph
         #Dump cause areas
         inference_file.write(f"\nCause areas {company} focuses on:\n")
         for cause_area in cause_areas:
-            inference_file.write(f"{cause_area}\n")
+            if cause_area not in ORIGINAL_CAUSE_AREAS:
+                continue
+            else:
+                inference_file.write(f"{cause_area}\n")
+
         inference_file.write(f"\nExplanation:\n")
         for explanation in cause_areas_explanation:
             inference_file.write(f"\n{explanation}\n")
@@ -153,22 +174,22 @@ def main():
         impacts = []
         impacts_explanation = []
 
-        print("---DEBUG---")
+        #print("---DEBUG---")
         #print(query_result['results'])
 
         # for key, value in query_result.items():
         #     print(key)
-        print(type(query_result['results']), len(query_result['results']))
+        #print(type(query_result['results']), len(query_result['results']))
         #print(type(query_result['results'][0]))
-        print(query_result['results'][0]['document_passages'])
+        #print(query_result['results'][0]['document_passages'])
         #print(query_result['results'][0]['extracted_metadata']['filename'])
 
-        print(query_result['results'][1]['document_passages'])
+        #print(query_result['results'][1]['document_passages'])
         #print(query_result['results'][1]['extracted_metadata']['filename'])
         #print(query_result['results']['extracted_metadata']['filename'])
 
 
-        print("---END DEBUG---")
+        #print("---END DEBUG---")
 
         for result in query_result['results']:
 
@@ -210,7 +231,38 @@ def main():
                 cause_areas = list( dict.fromkeys(cause_areas) )
                 demographics = list( dict.fromkeys(demographics) )
                 impacts = list( dict.fromkeys(impacts) )
-                create_mapping_file(company, cause_areas, cause_areas_explanation, demographics, demographics_explanation, impacts, impacts_explanation)
+
+                print("<---DEBUG 2---")
+
+                # print("cause areas: ", cause_areas)
+                # print(type(cause_areas))
+                # print(cause_areas[0], type(cause_areas[0]))
+                # cause_areas is a list of strings, but each string has a leading hyphen and space-
+                # which need to be removed
+                # 
+                # cleaned_cause_areas = [item.strip('- ').strip() for item in cause_areas if item] 
+
+                # for cause_area in cause_areas:
+                #     if cause_area in ORIGINAL_CAUSE_AREAS:
+                #         print("Cause Area: ", cause_area, " : VALID!")
+                #     else:
+                #         print("Cause Area: ", cause_area, " : NOT IN LIST!")           
+
+
+                # print("\n<------CAUSE AREAS EXPLANATION: ", cause_areas_explanation)
+                # print(cause_areas_explanation[0])
+                # print(type(cause_areas_explanation), type(cause_areas_explanation[0]))
+
+                print("<--- END DEBUG---")
+
+                cleaned_cause_areas_explanation = []
+
+                for explanation in cause_areas_explanation:
+                    # Check if the starting portion (from '-' to ':') matches any string in the original list
+                    if any(explanation.startswith(org) for org in ORIGINAL_CAUSE_AREAS):
+                        cleaned_cause_areas_explanation.append(explanation)
+
+                create_mapping_file(company, cause_areas, cleaned_cause_areas_explanation, demographics, demographics_explanation, impacts, impacts_explanation)
 
     print("Stage 1 mapping inference complete.")
     log_file.close()
