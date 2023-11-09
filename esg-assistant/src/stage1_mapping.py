@@ -254,6 +254,7 @@ def main():
                 # print(type(cause_areas_explanation), type(cause_areas_explanation[0]))
 
                 print("<--- END DEBUG---")
+                print("<--- END DEBUG---")
 
                 cleaned_cause_areas_explanation = []
 
