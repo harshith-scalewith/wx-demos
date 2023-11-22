@@ -1,14 +1,10 @@
 ESG mapping for Microsoft
 
 Cause areas Microsoft focuses on:
-- Diversity, Equity, and Inclusion
 - Economic Empowerment and Workforce Development
-
 - Arts and Culture
 - Education
-- Human Resources
 - Sustainability and Environment
-- Civic Engagement
 
 Explanation:
 
@@ -26,27 +22,23 @@ Document Offset: 28971
 
 Document Offset: 27782
 
-- Education: They want to train workers on generative AI and provide digital learning events and resources. That falls under education.
-
-- Diversity, Equity, and Inclusion: They have a goal of increasing diversity and inclusion within their hiring practices.
-
-- Human Resources: The entire second half of this document talks about how they manage their employees, what kind of employees they have, etc.
+- Education: The document discusses training workers on generative AI and providing access to digital learning events and resources. - Diversity, Equity, and Inclusion: It highlights the importance of diversity and inclusion in the workplace and outlines efforts to drive global systemic change in the workforce and create an inclusive work environment. - Human Resources: The passage focuses on Microsoft's approach to managing its human capital resources, including recruiting, developing, and retaining diverse talent, and creating a respectful and inclusive work environment.
 
 Document Offset: 29307
 
-- Diversity, Equity, and Inclusion: This cause area is selected because the company has made efforts to create an inclusive workplace and drive systematic changes in its workforce. They have implemented various initiatives like Employee Resource Groups and evaluations of senior leaders' contributions to employee culture and diversity.
+- Diversity, Equity, and Inclusion: This cause area is selected because the company has made efforts to create an inclusive workplace and drive systematic changes in its workforce. They have implemented various initiatives like Employee resource groups, evaluations of senior leaders' contributions to employee culture and diversity, etc., to promote diversity and inclusion.
 
-- Human Resources: The passage highlights the company's focus on employee engagement, satisfaction, and retention through various means like surveys, feedback mechanisms, and total rewards programs that align with their culture and values.
+- Human Resources: This cause area is selected since the company focuses on developing sustainable and strategic programs that provide a highly differentiated portfolio to attract, reward, and retain top talents. They emphasize reinforcing their culture and values via these programs, conduct regular monitoring of pay equity and career advancement, and offer total compensation opportunities that are highly differentiated and market-competitive.
 
 Document Offset: 22550
 
-- Sustainability and Environment: The passage highlights Microsoft's efforts to address climate change through its environmental sustainability management platform.
+- Sustainability and Environment: This cause area is mapped because of the mention of "Microsoft Cloud for Sustainability" and reducing carbon footprint.
 
-- Diversity, Equity, and Inclusion: The company's Racial Equity Initiative aims to improve the lives of Black and African Americans in the US, both within and outside of Microsoft. It has set specific goals to increase representation and strengthen inclusion.
+- Diversity, Equity, and Inclusion: Mention of initiatives focused on improving the lives of Black and African Americans, increasing representation, and strengthening inclusion.
 
-- Education: Microsoft is expanding its TEALS program to provide computer science education to Black and African American students.
+- Education: Programs such as TEALS expanding to hundreds of high schools to provide computer science education to black and African American students.
 
-- Civic Engagement: Through its Justice Reform Initiative, Microsoft is working with various organizations to advance racial equity and fairness in the justice system.
+- Digital Divide: Efforts to increase access to affordable broadband, devices, and digital literacy training in underserved areas.
 
 Demographics Microsoft focuses on:
 - Women and Girls
@@ -117,8 +109,8 @@ Explanation:
 Document Offset: 28252
 - Increase access to and acquire employment: Creating a respectful, rewarding, and inclusive work environment can help people get jobs.
 - Promote equal opportunity/ eliminate discrimination: Supporting multiple Employee Resource Groups promotes diversity and inclusion.
-- Increase active participation in society: Accountability for driving global systematic change in the workforce and creating an inclusive work environment can lead to engagement in societal issues.
-- Advocate for/ promote policy change: Evaluations of contributions to employee culture and diversity can result in changes in policies.
+- Increase active participation in society: Accountability for driving global systematic change in the workforce and creating an inclusive work environment can lead to societal impact.
+- Advocate for/ promote policy change: Evaluations of contributions to employee culture and diversity can influence policies supporting these values.
 Document Offset: 28971
 - Increase access to and acquire employment: The organization's efforts to create an inclusive work environment and provide opportunities for professional growth and development can help individuals acquire employment.
 - Promote equal treatment/ eliminate discrimination: The organization's commitment to diversity and inclusion, holding themselves accountable for driving global systemic change in their workforce and creating an inclusive work environment, can promote equal treatment and eliminate discrimination.
@@ -134,11 +126,11 @@ Document Offset: 27782
 Document Offset: 29307
 - Increase access to and acquire employment: The company's efforts to create an inclusive work environment and provide opportunities for all employees can lead to increased access to employment.
 - Promote equal treatment/ eliminate discrimination: The company's focus on diversity and inclusion, as well as its monitoring of pay equity and career progress, can help promote equal treatment and eliminate discrimination.
-- Increase active participation in society: By supporting multiple Employee Resource Groups and encouraging managers to evaluate and recommend rewards based on collaboration and contribution to the success of colleagues, the company can foster a sense of community and encourage active participation in society.
-- Advocate for/Promote Policy Change: The company's commitment to transparency and public disclosure of progress on workforce metrics, as well as its emphasis on holding itself accountable for driving global systemic change, can advocate for policy changes that promote diversity and inclusion.
+- Increase active participation in society: By supporting multiple Employee Resource Groups and encouraging managers to evaluate and recommend rewards based on collaboration and contribution to colleagues' success, the company can foster a sense of community and encourage active participation in society.
+- Advocate for/Promote Policy Change: The company's commitment to transparency regarding workforce metrics and its public disclosure of progress towards diversity goals can advocate for policy changes that promote diversity and inclusion.
 Document Offset: 22550
 - Increase access to and acquire employment: The initiatives aim to increase representation and strengthen inclusion in leadership positions.
 - Promote economic growth: The initiatives aim to engage the ecosystem and use the company's balance sheet to foster societal change and create new opportunities.
 - Achieve equality/ eliminate discrimination: The initiatives aim to address racial injustice and inequity in the US, particularly for black and African American communities.
-- Increase active participation in society: The initiatives aim to strengthen communities and engage the ecosystem to promote societal change.
-- Advocate for/promote policy change: The initiatives aim to advocate for policies and practices that promote racial equity and fairness in the justice system.
+- Increase active participation in society: The initiatives aim to strengthen communities through data, technology, and partnerships.
+- Advocate for/promote policy change: The initiatives aim to work within neighborhoods and communities to launch and scale several projects and programs, such as advancing racial equity and fairness in the justice system.

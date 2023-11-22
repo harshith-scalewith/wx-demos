@@ -40,6 +40,62 @@ ORIGINAL_CAUSE_AREAS = [
     '- Poverty Alleviation'
     ]
 
+ORIGINAL_IMPACT_AREAS = [
+    '- Increase appreciation and support for the arts',
+    '- Reduce criminal activity',
+    '- Reduce criminal recidivism',
+    '- Achieve financial stability',
+    '- Increase access to and acquire employment',
+    '- Promote economic growth',
+    '- Enhance community infrastructure',
+    '- Ensure STEM skills proficiency',
+    '- Increase access to quality education programs and services',
+    '- Improve academic achievement',
+    '- Reduce homelessness',
+    '- Increase amount and access to quality affordable housing',
+    '- Increase education, awareness and/or understanding of the risks/threat of climate change',
+    '- Reduce carbon impact',
+    '- Increase land protection and/or conservation',
+    '- Increase water protection an/or conservation',
+    '- Improve air quality',
+    '- Improve water quality',
+    '- Reduce hunger and malnutrition',
+    '- Increase access to nutritious food',
+    '- Increase access to drinkable/potable water',
+    '- Increase sustainable food systems',
+    '- Increase sustainable water systems',
+    '- Achieve equality/eliminate discrimination',
+    '- Increase active participation in society',
+    '- Increase peace through conflict resolution',
+    '- Reduce disease/improve health',
+    '- Increase access to quality, affordable healthcare and services',
+    '- Improve reproductive health',
+    '- Reduce risky and addictive behaviors',
+    '- Reduce trauma',
+    '- Protect and rescue animals',
+    '- Increase access to mental health services',
+    '- Advocate for/Promote Policy Change'
+    ]
+
+ORIGINAL_DEMOGRAPHICS = [
+    '- Seniors and Aging Populations',
+    '- Youth/Young People',
+    '- Indigenous Peoples',
+    '- Immigrants',
+    '- Migrants and Refugees',
+    '- People who identify as LGTBQ+',
+    '- People of Color',
+    '- Veterans',
+    '- Women and Girls',
+    '- People with Disabilities/Differently Abled',
+    '- People Experiencing Poverty',
+    '- People Experiencing Homelessness',
+    '- People Experiencing Obesity and/or Diabetes',
+    '- People Experiencing Hunger or Malnourishment',
+    '- People Experiencing Mental Illness',
+    '- People Experiencing Viruses and Diseases'
+    ]
+
 def init():
     global discovery
     global watson_ai
@@ -73,10 +129,12 @@ def init():
     with open(ca_to_impact_map_file) as json_file:
         cause_areas_to_impacts = json.load(json_file)
 
-    #Initialize the list of companies
+    # Initialize the list of companies
     # companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "WellsFargo", "Netflix", "Amazon"]
     # companies = ["coke"]
     companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "Netflix", "Amazon"]
+    # companies = ["Nvidia"]
+    # companies = ["Pfizer"]
     
 
 
@@ -125,7 +183,11 @@ def create_mapping_file(company, cause_areas, cause_areas_explanation, demograph
         #Dump demographics
         inference_file.write(f"\nDemographics {company} focuses on:\n")
         for audience in demographics:
-            inference_file.write(f"{audience}\n")
+            if audience not in ORIGINAL_DEMOGRAPHICS:
+                continue
+            else:
+                inference_file.write(f"{audience}\n")
+
         inference_file.write(f"\nExplanation:\n")
         for explanation in demographics_explanation:
             inference_file.write(f"{explanation}\n")
@@ -133,7 +195,11 @@ def create_mapping_file(company, cause_areas, cause_areas_explanation, demograph
         #Dump impacts
         inference_file.write(f"\nImpact Areas {company} focuses on:\n")
         for impact in impacts:
-            inference_file.write(f"{impact}\n")
+            if impact not in ORIGINAL_IMPACT_AREAS:
+                continue
+            else:
+                inference_file.write(f"{impact}\n")
+                
         inference_file.write(f"\nExplanation:\n")
         for explanation in impacts_explanation:
             inference_file.write(f"{explanation}\n")
@@ -209,7 +275,7 @@ def main():
 
                     cause_areas = cause_areas + extract_lines(response, "Cause Areas", "Explanation")
                     cause_areas_explanation = cause_areas_explanation + extract_lines(response, "Explanation", "go until end")
-
+                    
                     generated_prompt = augment(get_prompt(demographics_prompt_file), clean_passage)
                     response = watson_ai.generate(generated_prompt)
                     log_file.write(f"\nDemographics prompt:\n{generated_prompt} \nDemographics response:\n{response}")
@@ -263,7 +329,25 @@ def main():
                     if any(explanation.startswith(org) for org in ORIGINAL_CAUSE_AREAS):
                         cleaned_cause_areas_explanation.append(explanation)
 
-                create_mapping_file(company, cause_areas, cleaned_cause_areas_explanation, demographics, demographics_explanation, impacts, impacts_explanation)
+                cleaned_demographics_explanation = []
+
+                for explanation in cleaned_demographics_explanation:
+                    if any(explanation.startswith(org) for org in ORIGINAL_DEMOGRAPHICS):
+                        cleaned_demographics_explanation.append(explanation)
+
+                cleaned_impact_areas_explanation = []
+
+                for explanation in cleaned_impact_areas_explanation:
+                    if any(explanation.startswith(org) for org in ORIGINAL_IMPACT_AREAS):
+                        cleaned_impact_areas_explanation.append(explanation)
+
+                #create_mapping_file(company, cause_areas, cleaned_cause_areas_explanation, demographics, demographics_explanation, impacts, impacts_explanation)
+                create_mapping_file(
+                    company, 
+                    cause_areas, cleaned_cause_areas_explanation,
+                    demographics, cleaned_demographics_explanation, 
+                    impacts, cleaned_impact_areas_explanation
+                )
 
     print("Stage 1 mapping inference complete.")
     log_file.close()

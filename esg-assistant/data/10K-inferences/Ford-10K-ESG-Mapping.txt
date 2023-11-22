@@ -1,25 +1,23 @@
 ESG mapping for Ford
 
 Cause areas Ford focuses on:
-- Diversity, Equity, and Inclusion
 - Human Rights
-
-- Human Resources
 - Sustainability and Environment
+- Economic Empowerment and Workforce Development
 
 Explanation:
 
 Document Offset: 61287
 
-- Diversity, Equity, and Inclusion: This cause area is directly mentioned in the passage, highlighting Ford's efforts to create a culture of inclusion through their Employee Resource Groups (ERGs) and Ford Advocacy for Belonging (FAB) Councils. These groups aim to provide a voice for the company's diverse workforce and offer valuable insights into product development.
+- Diversity, Equity, and Inclusion: This cause area is directly mentioned in the passage, highlighting Ford's efforts to create a culture of inclusion through their Employee Resource Groups (ERGs) and Ford Advocacy for Belonging (FAB) Councils. These groups aim to provide a platform for diverse voices within the company and ensure representation across different dimensions such as race, gender, religion, sexual orientation, ability, and generation.
 
-- Human Rights: As part of their commitment to diversity, equity, and inclusion, Ford addresses issues related to human rights, such as working conditions and responsible sourcing, within their sustainability strategies. This falls under the purview of the Sustainability, Innovation, and Policy Committee.
+- Human Rights: As part of their commitment to diversity, equity, and inclusion, Ford addresses issues related to human rights, particularly those pertaining to fair treatment, respect, and equal opportunities for all employees. By promoting these values, they contribute towards fostering a safe and supportive workplace where everyone can feel valued and included.
 
 Document Offset: 62113
 
 - Diversity, Equity, and Inclusion: The passage highlights the company's commitment to diversity, equity, and inclusion through various initiatives such as Employee Resource Groups, FAB Councils, and DEI action plans specific to each region's unique needs and culture. It also mentions the importance of creating a Culture of Inclusion for all employees and embeds DEI into corporate strategy and governance.
 
-- Human Resources: The passage discusses the role of the Compensation, Talent and Culture Committee and the Sustainability, Innovation and Policy Committee in overseeing various people-related business strategies, including compensation and benefits, leadership succession planning, culture, DEI, and talent development programs.
+- Human Resources: The passage discusses the role of the Compensation, Talent and Culture Committee and the Sustainability, Innovation and Policy Committee in overseeing various people-related business strategies, including compensation, benefit programs, leadership succession planning, culture, DEI, and talent development programs.
 
 Document Offset: 62406
 
@@ -27,7 +25,11 @@ Document Offset: 62406
 
 - Sustainability and Environment: The passage refers to the company's sustainability strategies aimed at creating value consistent with the long-term preservation and enhancement of shareholder value and social wellbeing, including human rights, working conditions, and responsible sourcing.
 
-The document appears to be part of a report submitted to the Securities and Exchange Commission by Ford Motor Company. It includes various certifications and signatures of company officials, including the Chief Financial Officer. Therefore, it falls within the purview of economic empowerment and workforce development since it deals with corporate governance and compliance with regulatory requirements.
+Document offset: 367854
+
+- Economic Empowerment and Workforce Development: This document contains information about the company's financial reports, management contracts, and compensatory plans, indicating that it deals with economic and business matters. 
+
+- Sustainability and Environment: As the company mentioned in the document is Ford Motor Company, an automotive manufacturer, it is likely that some of their operations impact the environment. Therefore, it falls into sustainability and environmental cause areas.
 
 The document discusses the authorization of signatures for Ford Motor Company's Report, including that of the principal accounting officer, controller, director, chair of the board, president, chief executive officer, and finance committee chair. This falls within the purview of economic empowerment and workforce development since it involves leadership roles and decision-making authority within a corporate setting.
 
@@ -82,6 +84,7 @@ Impact Areas Ford focuses on:
 - Achieve equality/ eliminate discrimination
 - Increase active participation in society
 - Advocate for/Promote Policy Change
+- Advocate for/ promote policy change
 
 Explanation:
 Document Offset: 61287
@@ -94,9 +97,14 @@ Document Offset: 62113
 - Promote economic growth: A diverse and inclusive workplace fosters creativity and innovation leading to economic growth.
 - Achieve equality/ eliminate discrimination: Embedding DEI into corporate strategy and governance eliminates discrimination and promotes equality.
 Document Offset: 62406
-- Achieve equality/ eliminate discrimination: Creating a culture of inclusion eliminates discrimination.
-- Increase active participation in society: Representation of diverse talents increases participation.
-- Advocate for/Promote Policy Change: Embedding DEI into corporate strategy advocates policy change.
-The document mentions that instruments defining the rights of holders of certain issues of long-term debt of Ford and of certain consolidated subsidiaries and of any unconsolidated subsidiary, for which financial statements are required to be filed with this report, have not been filed as exhibits to this report because the authorized principal amount of any one of such issues does not exceed 10% of the total assets of Ford and our subsidiaries on a consolidated basis. This implies that Ford is complying with regulatory requirements set forth by the Securities and Exchange Commission, indicating advocacy for or promotion of policy change. Therefore, it falls under the "Advocate for/promote policy change" impact area.
+- Achieve equality/ eliminate discrimination: Creating a culture of inclusion and focusing on racial equity eliminates discrimination.
+- Increase active participation in society: Representation of diverse talent throughout the pipeline increases active participation.
+- Advocate for/Promote Policy Change: Embedding DEI into corporate strategy and governance advocates for policy change.
+Document Offset: 367854
+- Increase access to and acquire employment: The signature of William Clay Ford Jr indicates that he holds a position at Ford Motor Company, suggesting job availability.
+- Promote economic growth: Ford Motor Company's submission of this report suggests they are operating and contributing to the economy.
+- Achieve equality/ eliminate discrimination: Ford Motor Company's inclusion of an interactive data file formatted in inline extensible business reporting language and submitted electronically with this report in accordance with the provision of regulation S-T implies steps toward digital equity and accessibility.
+- Increase active participation in society: Ford Motor Company's agreement to furnish copies of instruments defining the rights of holder of certain issues of long term debts to the Securities and exchange commission upon requests suggest openness and transparency, leading to trust and societal engagement.
+- Advocate for/promote policy change: Ford Motor Company's compliance with section 13 or 15(d) of the securities exchange act of 1934 as amended, indicate adherence to existing policies and potential influence on future policymaking.
 Document Offset: 368365
-- Increase access to and acquire employment: The signature of the controller and principal accounting officer, Cathy O'Callaghan, indicates her role in managing finances at Ford Motor Company. This could lead to job opportunities in finance within the company. Additionally, signing by director and president, James D. Farley, Jr., suggests possible openings in leadership positions.
+-Advocate for/promote policy change: The document references "Regulation S-T" and mentions instruments that define the right of holders of certain issues of long term debts of Ford Motor Company and its subsidiaries. This implies advocacy for regulatory compliance and policy change within the company and its affiliates.

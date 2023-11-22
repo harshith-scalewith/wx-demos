@@ -1,62 +1,28 @@
 ESG mapping for Apple
 
 Cause areas Apple focuses on:
-- Diversity, Equity, and Inclusion
-- Human Resources
-- Employee Wellbeing
-
 - Human Rights
-- Safety and Security
 - Economic Empowerment and Workforce Development
 - Education
-- Food and Hunger
 - Public Health
 - Science and Technology
 - Sustainability and Environment
 
 Explanation:
 
-Document Offset: 18482
-
-- Diversity, Equity, and Inclusion: This cause area is selected because the company highlights its commitment to creating an inclusive workplace, increasing diverse representation, fostering an inclusive culture, and supporting equitable pay and opportunities for all employees.
-
-- Human Resources: The passage discusses the company's focus on human capital, including hiring practices, employee engagement, and investments in employee growth and development.
-
-- Employee Wellbeing: The company emphasizes providing a supportive environment for its team members, ensuring they have the necessary resources to meet their needs and succeed professionally and personally.
-
-Document Offset: 18257
-
 - Human Rights: The company ensures that it does not engage in any form of discrimination or harassment. They promote equality and fair treatment of everyone.
 
-- Diversity, Equity, and Inclusion: The company promotes diversity and inclusion in the workspace. It wants to ensure representation of different communities.
-
-- Employee Wellbeing: The company provides various benefits to help employees grow personally and professionally.
-
-Document offset: 212221
-
-- Economic Empowerment and Workforce Development: This section discusses executive cash incentives, subsidiaries, consent of independent registered accounting firm, power of attorney, rule 13a-14(a)/15d-14(a), certification of CEO and CFO, section 1350 certifications of CEO and CFO, inline XBRL document set, and form 10-k summary. These points relate directly to economic empowerment through business operations and workforce development within the company.
-
-Document Offset: 19855
-
-- Employee Wellbeing: This cause area includes initiatives promoting physical and mental well-being, such as providing resources for individual growth and development, engagement activities, and ensuring safe and secure workplaces.
-
-- Diversity, Equity, and Inclusion: The company's commitment to building a more inclusive workforce that represents the community it serves falls within this cause area. It encompasses efforts to promote diversity, equity, and inclusion, including increasing diverse representation, fostering a culture of inclusion, and supporting equal opportunities for all employees.
-
-- Safety and Security: This cause area involves implementing measures to ensure the protection of employees, visitors, and customers. It includes providing safety training, addressing potential workplace risks, and taking extra precautions during crises like the COVID-19 pandemic.
-
-Document Offset: 158944
+- Economic Empowerment and Workforce Development: This section discusses executive cash incentives, subsidiaries, consent of independent registered public accounting firm, power of attorney, rule 13a-14(a)/15d-14(a), certification of chief executive officer, and chief financial officer. These topics relate directly to business operations and economic empowerment within the company.
 
 - Economic Empowerment and Workforce Development: This document includes information about Apple's finances, including their profits, taxes, and assets. It also mentions the company's reliance on foreign subsidiaries and impacts of the Tax Cuts and Jobs Act. All these points relate directly to economic empowerment and workforce development.
 
-- Education: Apple has a large investment in education through its ConnectED program, which provides technology and resources to schools across the country. While not explicitly mentioned here, it falls within the purview of educational initiatives undertaken by corporations like Apple.
+- Education: Apple has investments in education through its ConnectED program, which provides technology and resources to underserved schools. While not explicitly mentioned here, it falls within the purview of educational initiatives undertaken by Apple.
 
-- Food and Hunger: Although there isn’t any direct mention of food or hunger issues specifically within this text section provided, we know that proper nutrition leads to better productivity. So indirectly, this passage talks about improving people's lives so they can have access to good food leading to zero hunger.
+- Public Health: There are no direct references connecting this passage to public health. However, Apple has launched various health-related features and apps over time, such as the Apple Watch's health monitoring capabilities or the Health app in iOS. Even though they aren't specifically addressed here, these efforts contribute to promoting public health generally.
 
-- Public Health: Passage discusses how much money apple spends on taxes, some of which goes towards funding public health programs. Additionally, an emphasis on sustainability practices often contributes positively to overall community wellness efforts.
+- Science and Technology: Apple invests heavily in research and development, evident from the mention of 'Research and development credit, net.' They have been known for pushing technological boundaries with innovations like Touch ID, Face ID, AR capabilities, etc. Their focus on innovation contributes significantly to advancements in science and technology.
 
-- Science and Technology: Apple invests heavily in research and development, which is evident from the mention of 'Research and development credit.' Also, the use of advanced technologies such as artificial intelligence, machine learning, and robotics in manufacturing processes contribute toward scientific progress.
-
-- Sustainability and Environment: The document highlights Apple's focus on environmental responsibility by mentioning renewable energy sources used throughout operations and supply chain partnerships designed to reduce carbon footprints.
+- Sustainability and Environment: Apple highlights its environmental responsibility initiatives, such as using renewable energy sources, reducing waste, designing environmentally friendly products, and encouraging suppliers to adopt sustainable practices. These endeavors support sustainability and protect the environment indirectly referenced in this passage but align with Apple's overall commitment to eco-friendliness.
 
 Demographics Apple focuses on:
 - People of Color
@@ -132,7 +98,7 @@ Document Offset: 212221
 -Advocate for/promote policy change: This document contains information about the company's executive cash incentive plan, subsidiaries, consent of independent registered public accounting firm, power of attorney, rule 13a-14(a)/15d-14(a) certification of chief executive officer and chief financial officer, section 1350 certifications of chief executive officer and chief financial officer, inline XBRL document set for the consolidated financial statements and accompanying notes, and exhibits. It also includes a form 10-k summary and signatures of officers. As it doesn't directly relate to advocacy or promotion of policy change, it does not map to the impact area.
 Document Offset: 19855
 - Increase access to and acquire employment: By offering various benefits and investing in tools and resources, the company increases opportunities for employees' growth and development.
-- Promote economic growth: The company's commitment to building a more inclusive workforce and supporting equitable pay and access to opportunities promotes economic growth.
-- Achieve equality/ eliminate discrimination: The company's efforts to increase diverse representation at every level and foster an inclusive culture aim to achieve equality and eliminate discrimination.
-- Increase active participation in society: Open and honest communication within the company creates a collaborative work environment where everyone can contribute and succeed.
-- Advocate for/Promote Policy Change: The company takes measures to mitigate potential workplace risks and protect employees' safety and security, which advocates for policy change.
+- Promote economic growth: The commitment to building a more inclusive workforce promotes equal opportunities and pay, supporting economic growth.
+- Achieve equality/ eliminate discrimination: Fostering an inclusive culture and increasing diverse representation fights discrimination and advocates for policy change.
+- Increase active participation in society: Encouragement of open communication creates a collaborative work environment where everyone can participate and succeed.
+- Advocate for/Promote Policy Change: Efforts to promote diversity, inclusion, and equity advocate for positive changes in policies and societal attitudes.
