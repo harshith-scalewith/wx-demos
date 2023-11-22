@@ -27,78 +27,42 @@ Explanation:
 Demographics Apple focuses on:
 - People of Color
 - Women and Girls
-- People who identify as LGBTQ+
 - People Experiencing Poverty
 - People Experiencing Homelessness
 - People Experiencing Hunger or Malnourishment
 - People Experiencing Mental Illness
 - People Experiencing Viruses and Diseases
-
-- People Identifying as LGBTQ+
 - People Experiencing Obesity and/or Diabetes
-- People experiencing poverty
-- People experiencing homelessness
-- People experiencing hunger or malnourishment
-- People experiencing mental illness
-- People experiencing viruses and diseases
 
 Explanation:
-Document Offset: 18482
 - People of Color: Inclusive and diverse workforce representative of the community.
 - Women and Girls: Equitable pay and access to opportunities for all employees.
-- People who identify as LGBTQ+: Inclusive and diverse workforce representative of the community.
 - People Experiencing Poverty: Supporting employees' individual growth and development.
 - People Experiencing Homelessness: Supporting employees' individual growth and development.
 - People Experiencing Hunger or Malnourishment: Supporting employees' individual growth and development.
 - People Experiencing Mental Illness: Supporting employees' individual growth and development.
 - People Experiencing Viruses and Diseases: Supporting employees' individual growth and development.
-Document Offset: 18257
 - People of Color: Inclusivity and diversity initiatives by the company.
 - Women and Girls: Inclusivity and diversity initiatives by the company.
-- People identifying as LGBTQ+: Inclusivity and diversity initiatives by the company.
-Document Offset: 212221
-- People experiencing poverty: Associated with lack of resources and opportunities.
-- People experiencing homelessness: Related to housing instability and insecurity.
-- People experiencing hunger or malnourishment: Linked to food insecurity and limited access to healthy nutrition.
-- People experiencing mental illness: Correlated with psychological distress and potential impact on overall wellbeing.
-- People experiencing viruses and diseases: Susceptible to various physical health issues.
-Document Offset: 19855
 - People Experiencing Poverty: Support equitable pay and access to opportunities for all employees.
 - People Experiencing Homelessness: Protecting its team members everywhere it operates.
 - People Experiencing Obesity and/or Diabetes: Health and safety measures during the COVID-19 pandemic.
 - People Experiencing Hunger or Malnourishment: Health and safety measures during the COVID-19 pandemic.
 - People Experiencing Mental Illness: Open and honest communication among team members, managers, and leaders help create an open, collaborative work environment where everyone can contribute, grow, and succeed.
 - People Experiencing Viruses and Diseases: Health and safety measures during the COVID-19 pandemic.
-Document Offset: 158944
-- People experiencing poverty: Reference to "provision for income taxes" and "foreign tax credit carryforwards" suggests that some individuals may not have enough resources to pay taxes or access basic necessities.
-- People experiencing homelessness: No direct reference.
-- People experiencing hunger or malnourishment: No direct reference.
-- People experiencing mental illness: No direct reference.
-- People experiencing viruses and diseases: No direct reference.
 
 Impact Areas Apple focuses on:
 - Increase access to and acquire employment
-- Achieve equality/ eliminate discrimination
 - Increase active participation in society
-
 - Promote economic growth
 - Advocate for/Promote Policy Change
 
 Explanation:
-Document Offset: 18482
 - Increase access to and acquire employment: Talented, Motivated & dedicated team, inclusive, safe and supportive environment, equal opportunity employer, competitive and equitable compensations, employee's growth and developments.
-Achieve equality/ eliminate discrimination: Equal opportunity employer, committed to inclusion and diversity, increasing diverse representation, fostering an inclusive culture, supporting equitable pay and access to opportunities for all employees.
-Increase active participation in society: Open and honest communications, open, collaborative work environments, everyone contributes, grows and succeeds.
-Document Offset: 18257
 - Increase access to and acquire employment: The company's commitment to creating an inclusive and diverse work environment promotes equal opportunities for everyone. They offer various benefits and invest in employee growth and development, supporting access to employment.
 - Promote economic growth: By having a large number of full-time equivalent employees and offering them competitive compensation packages, the company contributes to economic growth.
-- Achieve equality/ eliminate discrimination: The company is committed to being an equal opportunity employer and provides a workplace free of harassment or discrimination, working towards achieving equality and eliminating discrimination.
 - Increase active participation in society: The company encourages its employees to participate actively in their personal and professional lives, contributing to society.
-Document Offset: 212221
--Advocate for/promote policy change: This document contains information about the company's executive cash incentive plan, subsidiaries, consent of independent registered public accounting firm, power of attorney, rule 13a-14(a)/15d-14(a) certification of chief executive officer and chief financial officer, section 1350 certifications of chief executive officer and chief financial officer, inline XBRL document set for the consolidated financial statements and accompanying notes, and exhibits. It also includes a form 10-k summary and signatures of officers. As it doesn't directly relate to advocacy or promotion of policy change, it does not map to the impact area.
-Document Offset: 19855
 - Increase access to and acquire employment: By offering various benefits and investing in tools and resources, the company increases opportunities for employees' growth and development.
 - Promote economic growth: The commitment to building a more inclusive workforce promotes equal opportunities and pay, supporting economic growth.
-- Achieve equality/ eliminate discrimination: Fostering an inclusive culture and increasing diverse representation fights discrimination and advocates for policy change.
 - Increase active participation in society: Encouragement of open communication creates a collaborative work environment where everyone can participate and succeed.
 - Advocate for/Promote Policy Change: Efforts to promote diversity, inclusion, and equity advocate for positive changes in policies and societal attitudes.

@@ -12,6 +12,8 @@ from ibm_watson_machine_learning.metanames import GenTextParamsMetaNames as GenP
 from ibm_watson_machine_learning.foundation_models.utils.enums import DecodingMethods
 from ibm_watson_machine_learning.foundation_models import Model
 
+import pandas as pd
+
 #Global variables
 discovery = None
 watson_ai = None
@@ -131,8 +133,8 @@ def init():
 
     # Initialize the list of companies
     # companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "WellsFargo", "Netflix", "Amazon"]
-    # companies = ["coke"]
-    companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "Netflix", "Amazon"]
+    companies = ["coke"]
+    #companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "Netflix", "Amazon"]
     # companies = ["Nvidia"]
     # companies = ["Pfizer"]
     
@@ -323,30 +325,98 @@ def main():
                 print("<--- END DEBUG---")
 
                 cleaned_cause_areas_explanation = []
-
                 for explanation in cause_areas_explanation:
                     # Check if the starting portion (from '-' to ':') matches any string in the original list
                     if any(explanation.startswith(org) for org in ORIGINAL_CAUSE_AREAS):
                         cleaned_cause_areas_explanation.append(explanation)
+                
+                '''
+                ## MERGE DUPLICATE EXPLANATIONS
+                first_portion_dict = {}
+
+                for item in cleaned_cause_areas_explanation:
+                    # Find the index of ':' and extract the substring from the beginning to that index
+                    first_portion = item.split(':', 1)[0] + ':'
+                    
+                    # Check if the first portion is already in the dictionary
+                    if first_portion not in first_portion_dict:
+                        first_portion_dict[first_portion] = item
+                    else:
+                        # Concatenate the text after the first occurrence
+                        first_portion_dict[first_portion] += ' ' + item.split(':', 1)[1]
+
+                # Convert the values of the dictionary back to a list
+                result_list = list(first_portion_dict.values())
+
+                print("<<< CAUSE AREAS >>>")
+                # Print the result
+                for item in result_list:
+                    print(item)
+
+                '''
 
                 cleaned_demographics_explanation = []
-
-                for explanation in cleaned_demographics_explanation:
+                for explanation in demographics_explanation:
                     if any(explanation.startswith(org) for org in ORIGINAL_DEMOGRAPHICS):
                         cleaned_demographics_explanation.append(explanation)
+                '''
+                ## MERGE DUPLICATE EXPLANATIONS
+                first_portion_dict = {}
 
-                cleaned_impact_areas_explanation = []
+                for item in cleaned_demographics_explanation:
+                    # Find the index of ':' and extract the substring from the beginning to that index
+                    first_portion = item.split(':', 1)[0] + ':'
+                    
+                    # Check if the first portion is already in the dictionary
+                    if first_portion not in first_portion_dict:
+                        first_portion_dict[first_portion] = item
+                    else:
+                        # Concatenate the text after the first occurrence
+                        first_portion_dict[first_portion] += ' ' + item.split(':', 1)[1]
 
-                for explanation in cleaned_impact_areas_explanation:
+                # Convert the values of the dictionary back to a list
+                result_list = list(first_portion_dict.values())
+
+                print("<<<  DEMOGRAPHICS  >>>")
+                # Print the result
+                for item in result_list:
+                    print(item)
+                '''
+
+
+                cleaned_impacts_explanation = []
+                for explanation in impacts_explanation:
                     if any(explanation.startswith(org) for org in ORIGINAL_IMPACT_AREAS):
-                        cleaned_impact_areas_explanation.append(explanation)
+                        cleaned_impacts_explanation.append(explanation)
+                '''
+                ## MERGE DUPLICATE EXPLANATIONS
+                first_portion_dict = {}
 
-                #create_mapping_file(company, cause_areas, cleaned_cause_areas_explanation, demographics, demographics_explanation, impacts, impacts_explanation)
+                for item in cleaned_impacts_explanation:
+                    # Find the index of ':' and extract the substring from the beginning to that index
+                    first_portion = item.split(':', 1)[0] + ':'
+                    
+                    # Check if the first portion is already in the dictionary
+                    if first_portion not in first_portion_dict:
+                        first_portion_dict[first_portion] = item
+                    else:
+                        # Concatenate the text after the first occurrence
+                        first_portion_dict[first_portion] += ' ' + item.split(':', 1)[1]
+
+                # Convert the values of the dictionary back to a list
+                result_list = list(first_portion_dict.values())
+
+                print("<<< IMPACTS >>>")
+                # Print the result
+                for item in result_list:
+                    print(item)
+                '''
+                
                 create_mapping_file(
                     company, 
                     cause_areas, cleaned_cause_areas_explanation,
                     demographics, cleaned_demographics_explanation, 
-                    impacts, cleaned_impact_areas_explanation
+                    impacts, cleaned_impacts_explanation
                 )
 
     print("Stage 1 mapping inference complete.")

@@ -2,148 +2,71 @@ ESG mapping for Amazon
 
 Cause areas Amazon focuses on:
 - Education
-- Human Resources
-- Labor Practices
-
-- Safety
 - Economic Empowerment and Workforce Development
-- Diversity, Equity, and Inclusion
 - Sustainability and Environment
-- Public Health
 
 Explanation:
 
-Document Offset: 12006
-
 - Education: The passage highlights training, skill development, funded education for hourly employees, and software development engineer training programs provided by the organization. These come under education.
-
-- Human Resources: The passage talks about recruiting, developing, evaluating, and retaining employees and ensuring their safety and engagement. All these activities fall within human resources.
-
-- Labor Practices: The passage mentions using independent contractors and temporary workers to supplement the workforce and competition for qualified personnel. This falls under labor practices.
-
-Document Offset: 12579
 
 - Education: This cause area is selected because the document mentions funded education for hourly employees through Amazon Career Choice program. It also talks about training and educational programs like Amazon Technical Academy.
 
-- Human Resources: The passage highlights the importance of human capital and the efforts made by the organization to recruit, train, and retain its employees. It discusses various initiatives implemented to promote equity for all candidates and employees.
+- Economic Empowerment and Workforce Development: This cause area is mapped because the company invests in its workers' career growth through various means like training, education, and mentorship. They aim to create an inclusive environment where everyone can thrive. 
 
-- Safety: The passage emphasizes the significance of safety in the organization's operations. It mentions the dedication of a safety team towards solving complex safety issues and establishing new industry best practices.
+- Economic Empowerment and Workforce Development: The passage highlights the need for skilled workers and the efforts made by the company to train its existing employees through programs like Amazon Career Choice and the Amazon Technical Academy. These types of programs can lead to economic empowerment for individuals who might not otherwise have access to them, thereby promoting workforce development.
 
-Document Offset: 13057
-
-- Economic Empowerment and Workforce Development: This cause area is mapped because the company invests in its workers' career growth through various means like funded education, skill training, and mentorship. They aim to create an inclusive environment where everyone can thrive. 
-
-- Diversity, Equity, and Inclusion: The company emphasizes creating a diverse and inclusive culture by implementing measures to ensure fair evaluation, promotion, and retention processes. Additionally, they offer programs that enhance employee engagement, communication, and feedback.
-
-Document Offset: 11742
-
-- Human Resources: This cause area is selected because the passage talks about the importance of employees and how they are critical to the companys mission. It also discusses the challenges of attracting and retaining top talent and the various initiatives the company has implemented to address this issue.
-
-- Education: The passage mentions training and educational programs such as Amazon Career Choice (funded education for hourly employees) and the Amazon Technical Academy (software development engineer training), which falls under the category of education.
-
-- Economic Empowerment and Workforce Development: The passage highlights the need for skilled workers and the company's efforts to provide training and development opportunities to its employees, which aligns with the goals of economic empowerment and workforce development.
-
-Document Offset: 98977
+- Education: The passage mentions funded education for hourly employees and training programs for software development engineers. Both examples relate directly to education and skill development, making it an appropriate cause area for this excerpt.
 
 - Economic Empowerment and Workforce Development: Rising interest rates, significant capital market volatility, and increasing borrowing levels can lead to higher borrowing costs, which can negatively impact economic empowerment and workforce development.
 
-- Sustainability and Environment: Fuel, utility, and food costs rising may impact sustainability and environmental conservation efforts.
-
-- Public Health: Prolonged COVID-19 pandemic, global supply chain constraints, and geopolitical developments have an impact on human life and public health.
+- Sustainability and Environment: The document mentions "rising fuel, utility, and food costs" which can contribute to environmental degradation and unsustainable practices.
 
 Demographics Amazon focuses on:
 - People Experiencing Poverty
 - People Experiencing Homelessness
 - People Experiencing Hunger or Malnourishment
-- People Identifying as LGBTQ+
 - People of Color
 - Women and Girls
 - People with Disabilities/Differently Abled
 - Veterans
-
 - People Experiencing Mental Illness
 - People Experiencing Viruses and Diseases
-- People experiencing poverty
-- People experiencing homelessness
-- People experiencing hunger or malnourishment
-- People experiencing mental illness
-- People experiencing viruses and diseases
 
 Explanation:
-Document Offset: 12006
-- People experiencing poverty: The document mentions that there is high competition for jobs at Amazon, indicating that some people might experience poverty due to lack of job opportunities.
-- People experiencing homelessness: There's no direct mention of this demographic, but considering the previous point, it could be inferred that some individuals struggling financially might also deal with housing instability.
-- People experiencing hunger or malnourishment: Not directly mentioned either, but related to poverty above.
-- People identifying as LGBTQ+: Amazon emphasizes its commitment to "inclusion and diversity" and creating an environment where everyone feels welcome. It doesn't specify any particular group, though.
-- People of color: Same as above - the company stresses the importance of diversity without going into detail about specific communities.
-- Women and girls: Again, Amazon highlights its dedication to diversity and inclusivity without pointing out women specifically.
-- People with disabilities/differently abled: No explicit reference here either; however, the mention of "flexible work arrangements" could suggest accommodations for differently-abled workers.
 - Veterans: Not mentioned explicitly in the given excerpt from the document.
-Document Offset: 12579
-- People Experiencing Poverty: The document mentions "constrained labor markets" and "competition for qualified personnel," suggesting that some people may experience poverty due to limited job opportunities.
-- People Experiencing Homelessness: The document does not explicitly mention homelessness, but given the previous point about poverty, it's possible that some individuals may lack stable housing.
-- People Experiencing Hunger or Malnourishment: Not directly addressed in this excerpt.
-- People Experiencing Mental Illness: The document highlights Amazon's efforts to promote mental health through its safety team and various programs supporting employee wellbeing.
-- People Experiencing Viruses and Diseases: Not directly addressed in this excerpt.
-- Women and Girls: The document emphasizes Amazon's commitment to diversity and inclusivity without specifying gender; however, women and girls could benefit from the mentioned initiatives promoting equality.
+- People Experiencing Poverty: The document mentions "constrained labor markets" and competition for personnel, indicating that some people may experience poverty due to limited job opportunities.
+- People Experiencing Homelessness: The document does not explicitly mention homelessness, but given the previous point, it's possible that some individuals may lack stable housing.
+- People Experiencing Hunger or Malnourishment: Not directly addressed in the text.
+- People Experiencing Mental Illness: The document highlights Amazon's commitment to mental health through its safety team and various programs promoting employee wellbeing.
+- People Experiencing Viruses and Diseases: Not directly mentioned.
+- Women and Girls: The document emphasizes Amazon's dedication to diversity and inclusivity without specifying gender. However, women and girls could benefit from the general push towards equality.
 - People of Color: Same as above.
-- People with Disabilities/Differently Abled: Amazon's dedication to accessibility and accommodations for employees with disabilities is briefly touched upon.
-- Veterans: No direct relation to veterans is made in this section.
-Document Offset: 13057
-- People experiencing poverty: Competition for qualified personnel is intense, particularly for software engineers, computer scientists, and other technical staff, and constrained labor markets have increased competition for personnel across other parts of our business.
-- People experiencing homelessness: Not mentioned directly. However, the text does mention "investments" and "innovations," which could potentially address issues related to housing instability.
-- People experiencing hunger or malnourishment: Not mentioned directly. However, the text does mention "competitive pay and benefits," which could potentially help alleviate food security concerns for some individuals.
-- People identifying as LGBTQ+: Not mentioned directly. However, the text does mention "inclusion and diversity" among Amazon's goals, suggesting an environment where diverse perspectives are valued.
-- People of color: Not mentioned directly. However, the text does mention "inclusion and diversity" among Amazon's goals, suggesting an environment where diverse perspectives are valued.
-- Women and girls: Not mentioned directly. However, the text does mention "inclusion and diversity" among Amazon's goals, suggesting an environment where diverse perspectives are valued.
-- People with disabilities/differently abled: Not mentioned directly. However, the text does mention "flexible work arrangements" and "skills training and educational programs," which could potentially benefit individuals with disabilities.
+- People with Disabilities/Differently Abled: Amazon's attention to accessibility and accommodations for employees with disabilities is evident in their Career Choice program and emphasis on safety improvements.
+- Veterans: No direct connection exists between the provided section and veterans.
 - Veterans: Not mentioned directly. However, the text does mention "mentorship and support resources" for employees, which could potentially include veteran-specific support programs.
-Document Offset: 11742
-- People experiencing poverty: The company's focus on investing in its employees through various means like competitive pay and benefits, flexible work arrangements, and skill development programs could help alleviate poverty among its workers.
-- People experiencing homelessness: By providing stable jobs and career growth opportunities, the company might assist individuals without homes in securing permanent housing.
-- People experiencing hunger or malnourishment: Through its food delivery services, the organization can provide resources to address issues related to nutritional deficiency.
-- People experiencing mental illness: Initiatives like employee counseling services or mental health support groups within the company culture could positively impact this demographic.
-- People experiencing viruses and diseases: The organization's emphasis on maintaining a safe working environment contributes to minimizing the risk of disease transmission among employees.
-- Women and girls: Various initiatives prioritize gender equality, such as equal compensation practices and mentorship programs promoting female leadership representation.
-- People of color: Efforts towards creating an inclusive workplace foster greater diversity, equity, and representation for people from diverse ethnic backgrounds.
-- Veterans: Amazon's commitment to hiring veterans and military spouses demonstrates support for those who served in the armed forces.
-- People with disabilities/differently abled: Adaptable work environments and accommodations allow differently-abled candidates equal opportunities within the organization.
-- People identifying as LGBTQ+: Policies ensuring non-discrimination based on sexual orientation or gender identity promote a welcoming atmosphere at the company.
-Document Offset: 98977
-- People experiencing poverty: Rising interest rates, significant capital market volatility, and increasing borrowing levels may contribute to higher future borrowing costs.
-- People experiencing homelessness: The prolonged COVID-19 pandemic, global supply chain constraints, and global economic and geopolitical developments may affect housing stability.
-- People experiencing hunger or malnourishment: Rising fuel, utility, and food costs may impact access to affordable nutrition.
-- People experiencing mental illness: Recessionary fears and reduced consumer spending may limit access to mental health resources.
-- People experiencing viruses and diseases: The COVID-19 pandemic has had a direct impact on public health.
+- Veterans: By offering job opportunities and dedicated training programs, the corporation demonstrates commitment towards supporting former military members' transition back into civilian life.
 
 Impact Areas Amazon focuses on:
 - Ensure STEM skills proficiency
 - Increase access to quality education programs and services
-
-- Promote Diversity, Equity, and Inclusion
 - Achieve financial stability
 - Increase access to and acquire employment
 - Promote economic growth
 
 Explanation:
-Document Offset: 12006
 - Ensure STEM skills proficiency: The company's reliance on skilled workers like software engineers and computer scientists highlights the importance of developing and maintaining expertise in science, technology, engineering, and math (STEM). To address this need, they provide training and educational programs like Amazon Career Choice and the Amazon Technical Academy. These initiatives aim to enhance the skills of their existing workforce while expanding the pool of qualified candidates for open positions. By doing so, they contribute to ensuring that individuals possess the necessary proficiencies in STEM fields.
 - Increase access to quality education programs and services: Through its various training and educational initiatives, the organization not only upgrades the abilities of its current staff but also extends opportunities for learning and professional growth to external parties. For instance, Amazon Career Choice offers funded education to hourly employees, whereas the Amazon Technical Academy provides training in software development engineering. Such efforts broaden access to high-quality educational resources, ultimately enhancing the overall skill level of the workforce and contributing positively to society.
-Document Offset: 12579
 - Ensure STEM skills proficiency: The company's focus on investing in innovation, inclusion, and diversity, as well as their provision of skills training and educational programs like Amazon Career Choice and the Amazon Technical Academy, can help ensure that their employees have the necessary STEM skills proficiency.
 - Increase access to quality education programs and services: By providing funded education for hourly employees through Amazon Career Choice and software development engineer training through the Amazon Technical Academy, the company is increasing access to quality education programs and services for its employees.
-- Promote Diversity, Equity, and Inclusion: The company's emphasis on promoting diversity, equity, and inclusion within their workforce, as well as their efforts to ensure equity for all candidates and employees, contributes towards promoting diversity, equity, and inclusion.
-Document Offset: 13057
 - Increase access to quality education programs and services: funded education for hourly employees and training programs.
 - Achieve financial stability: Competition for qualified personnel is intense, particularly for software engineers, computer scientists, and other technical staff, and constrained labor markets have increased competition for personnel across other parts of their business.
-- Increase access to and acquire employment: They strive to be Earth's best employer, they focus on investments and innovations, inclusions and diversity, safety, and engagements to hire and develop the best talents.
-- Promote economic growth: They also continue to inspect and refine the mechanisms they use to hire, develop, evaluate, and retain their employees to promote equity for all candidates and employees.
+- Increase access to and acquire employment: They strive to be earth's best employer and invent mechanisms for talent development, including competitive pay and benefits, flexible work arrangements, and skills training and educational programs.
+- Promote economic growth: They continue to inspect and refine the mechanisms they use to hire, develop, evaluate, and retain their employees to promote equity for all candidates and employees.
 - Ensure STEM skills proficiency: They provide mentorship and support resources to their employees, and have deployed numerous programs that advance employee engagement, communication, and feedback.
-Document Offset: 11742
 - Ensure STEM skills proficiency: The company files patent applications and requires skilled tech workers. 
 - Increase access to quality education programs and services: They fund education for hourly employees through Amazon career choice and provide training through the Amazon Technical Academy.
 - Achieve financial stability: The company desires to promote economic growth and uses various strategies to maintain a strong workforce.
 - Increase access to and acquire employment: They employ over 1.5 million people and desire to continue expanding while facing challenges in competitive labor markets.
 - Promote economic growth: They want to promote economic growth and use numerous and evolving initiatives to implement this objective.
-Document Offset: 98977
-- Achieve financial stability: The document discusses how macroeconomic factors such as inflation, interest rate rises, and capital market volatility have affected the company's financial performance and may continue to do so in the future, potentially impacting their ability to achieve financial stability.
+- Achieve financial stability: Rising interests and increasing borrowing levels threaten financial instability. 
+- Promote economic growth: Economic conditions such as inflation, interest rate rises, and capital market volatility hinder economic growth.
