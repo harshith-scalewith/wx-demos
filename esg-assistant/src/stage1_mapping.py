@@ -132,8 +132,8 @@ def init():
         cause_areas_to_impacts = json.load(json_file)
 
     # Initialize the list of companies
-    # companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "WellsFargo", "Netflix", "Amazon"]
-    companies = ["coke"]
+    companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "WellsFargo", "Netflix", "Amazon"]
+    # companies = ["coke"]
     #companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "Netflix", "Amazon"]
     # companies = ["Nvidia"]
     # companies = ["Pfizer"]
@@ -166,45 +166,57 @@ def extract_lines(input, start, end):
 
     return extracted_lines
 
-def create_mapping_file(company, cause_areas, cause_areas_explanation, demographics, demographics_explanation, impacts, impacts_explanation):
+def create_mapping_file(company, cause_areas, cause_areas_explanation,
+                        demographics, demographics_explanation,
+                        impacts, impacts_explanation):
+
         inference_file = open(f"../data/10K-inferences/{company}-10K-ESG-Mapping.txt", "w")
         inference_file.write(f"ESG mapping for {company}\n")
 
         #Dump cause areas
+        ULTIMATE_CAUSE_AREAS = []
         inference_file.write(f"\nCause areas {company} focuses on:\n")
         for cause_area in cause_areas:
             if cause_area not in ORIGINAL_CAUSE_AREAS:
                 continue
             else:
+                ULTIMATE_CAUSE_AREAS.append(cause_area)
                 inference_file.write(f"{cause_area}\n")
 
         inference_file.write(f"\nExplanation:\n")
         for explanation in cause_areas_explanation:
-            inference_file.write(f"\n{explanation}\n")
+            if(explanation.split(':', 1)[0] in ULTIMATE_CAUSE_AREAS):
+                inference_file.write(f"\n{explanation}\n")
 
         #Dump demographics
+        ULTIMATE_DEMOGRAPHICS = []
         inference_file.write(f"\nDemographics {company} focuses on:\n")
         for audience in demographics:
             if audience not in ORIGINAL_DEMOGRAPHICS:
                 continue
             else:
+                ULTIMATE_DEMOGRAPHICS.append(audience)
                 inference_file.write(f"{audience}\n")
 
         inference_file.write(f"\nExplanation:\n")
         for explanation in demographics_explanation:
-            inference_file.write(f"{explanation}\n")
+            if(explanation.split(':', 1)[0] in ULTIMATE_DEMOGRAPHICS):
+                inference_file.write(f"{explanation}\n")
 
         #Dump impacts
+        ULTIMATE_IMPACTS = []
         inference_file.write(f"\nImpact Areas {company} focuses on:\n")
         for impact in impacts:
             if impact not in ORIGINAL_IMPACT_AREAS:
                 continue
             else:
+                ULTIMATE_IMPACTS.append(impact)
                 inference_file.write(f"{impact}\n")
                 
         inference_file.write(f"\nExplanation:\n")
         for explanation in impacts_explanation:
-            inference_file.write(f"{explanation}\n")
+            if(explanation.split(':', 1)[0] in ULTIMATE_IMPACTS):
+                inference_file.write(f"{explanation}\n")
 
         inference_file.close()
 
@@ -302,24 +314,24 @@ def main():
 
                 print("<---DEBUG 2---")
 
-                # print("cause areas: ", cause_areas)
-                # print(type(cause_areas))
-                # print(cause_areas[0], type(cause_areas[0]))
+                print("cause areas: ", cause_areas)
+                print(type(cause_areas))
+                print(cause_areas[0], type(cause_areas[0]))
                 # cause_areas is a list of strings, but each string has a leading hyphen and space-
                 # which need to be removed
-                # 
-                # cleaned_cause_areas = [item.strip('- ').strip() for item in cause_areas if item] 
+                
+                cleaned_cause_areas = [item.strip('- ').strip() for item in cause_areas if item] 
 
-                # for cause_area in cause_areas:
-                #     if cause_area in ORIGINAL_CAUSE_AREAS:
-                #         print("Cause Area: ", cause_area, " : VALID!")
-                #     else:
-                #         print("Cause Area: ", cause_area, " : NOT IN LIST!")           
+                for cause_area in cause_areas:
+                    if cause_area in ORIGINAL_CAUSE_AREAS:
+                        print("Cause Area: ", cause_area, " : VALID!")
+                    else:
+                        print("Cause Area: ", cause_area, " : NOT IN LIST!")           
 
 
-                # print("\n<------CAUSE AREAS EXPLANATION: ", cause_areas_explanation)
-                # print(cause_areas_explanation[0])
-                # print(type(cause_areas_explanation), type(cause_areas_explanation[0]))
+                print("\n<------CAUSE AREAS EXPLANATION: ", cause_areas_explanation)
+                print(cause_areas_explanation[0])
+                print(type(cause_areas_explanation), type(cause_areas_explanation[0]))
 
                 print("<--- END DEBUG---")
                 print("<--- END DEBUG---")
@@ -330,7 +342,7 @@ def main():
                     if any(explanation.startswith(org) for org in ORIGINAL_CAUSE_AREAS):
                         cleaned_cause_areas_explanation.append(explanation)
                 
-                '''
+
                 ## MERGE DUPLICATE EXPLANATIONS
                 first_portion_dict = {}
 
@@ -346,20 +358,18 @@ def main():
                         first_portion_dict[first_portion] += ' ' + item.split(':', 1)[1]
 
                 # Convert the values of the dictionary back to a list
-                result_list = list(first_portion_dict.values())
+                result_list_CA = list(first_portion_dict.values())
 
-                print("<<< CAUSE AREAS >>>")
-                # Print the result
-                for item in result_list:
-                    print(item)
-
-                '''
+                # print("<<< CAUSE AREAS >>>")
+                # # Print the result
+                # for item in result_list:
+                #     print(item)
 
                 cleaned_demographics_explanation = []
                 for explanation in demographics_explanation:
                     if any(explanation.startswith(org) for org in ORIGINAL_DEMOGRAPHICS):
                         cleaned_demographics_explanation.append(explanation)
-                '''
+
                 ## MERGE DUPLICATE EXPLANATIONS
                 first_portion_dict = {}
 
@@ -375,20 +385,20 @@ def main():
                         first_portion_dict[first_portion] += ' ' + item.split(':', 1)[1]
 
                 # Convert the values of the dictionary back to a list
-                result_list = list(first_portion_dict.values())
+                result_list_DEM = list(first_portion_dict.values())
 
-                print("<<<  DEMOGRAPHICS  >>>")
-                # Print the result
-                for item in result_list:
-                    print(item)
-                '''
+                # print("<<<  DEMOGRAPHICS  >>>")
+                # # Print the result
+                # for item in result_list:
+                #     print(item)
+
 
 
                 cleaned_impacts_explanation = []
                 for explanation in impacts_explanation:
                     if any(explanation.startswith(org) for org in ORIGINAL_IMPACT_AREAS):
                         cleaned_impacts_explanation.append(explanation)
-                '''
+
                 ## MERGE DUPLICATE EXPLANATIONS
                 first_portion_dict = {}
 
@@ -404,19 +414,19 @@ def main():
                         first_portion_dict[first_portion] += ' ' + item.split(':', 1)[1]
 
                 # Convert the values of the dictionary back to a list
-                result_list = list(first_portion_dict.values())
+                result_list_IMP = list(first_portion_dict.values())
 
-                print("<<< IMPACTS >>>")
-                # Print the result
-                for item in result_list:
-                    print(item)
-                '''
+                # print("<<< IMPACTS >>>")
+                # # Print the result
+                # for item in result_list:
+                #     print(item)
+
                 
                 create_mapping_file(
                     company, 
-                    cause_areas, cleaned_cause_areas_explanation,
-                    demographics, cleaned_demographics_explanation, 
-                    impacts, cleaned_impacts_explanation
+                    cause_areas, result_list_CA,
+                    demographics, result_list_DEM, 
+                    impacts, result_list_IMP
                 )
 
     print("Stage 1 mapping inference complete.")
