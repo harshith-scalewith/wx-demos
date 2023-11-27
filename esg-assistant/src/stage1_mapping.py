@@ -12,6 +12,8 @@ from ibm_watson_machine_learning.metanames import GenTextParamsMetaNames as GenP
 from ibm_watson_machine_learning.foundation_models.utils.enums import DecodingMethods
 from ibm_watson_machine_learning.foundation_models import Model
 
+import pandas as pd
+
 #Global variables
 discovery = None
 watson_ai = None
@@ -22,6 +24,79 @@ cause_areas_prompt_file = "../data/prompts/cause_areas_mapping.txt"
 demographics_prompt_file = "../data/prompts/demographics_mapping.txt"
 impact_areas_prompt_file = "../data/prompts/impact_areas_mapping.txt"
 
+ORIGINAL_CAUSE_AREAS = [
+    '- Arts and Culture', 
+    '- Animal Rights & Welfare', 
+    '- Restorative and Criminal Justice',
+    '- Disaster Response, Relief, and Recovery',
+    '- Diversity, Equity and Inclusion',
+    '- Economic Empowerment and Workforce Development',
+    '- Education',
+    '- Food and Hunger',
+    '- Housing and Homelessness',
+    '- Sustainability and Environment',
+    '- Human Rights', 
+    '- Civic Engagement', 
+    '- Public Health', 
+    '- Science and Technology', 
+    '- Poverty Alleviation'
+    ]
+
+ORIGINAL_IMPACT_AREAS = [
+    '- Increase appreciation and support for the arts',
+    '- Reduce criminal activity',
+    '- Reduce criminal recidivism',
+    '- Achieve financial stability',
+    '- Increase access to and acquire employment',
+    '- Promote economic growth',
+    '- Enhance community infrastructure',
+    '- Ensure STEM skills proficiency',
+    '- Increase access to quality education programs and services',
+    '- Improve academic achievement',
+    '- Reduce homelessness',
+    '- Increase amount and access to quality affordable housing',
+    '- Increase education, awareness and/or understanding of the risks/threat of climate change',
+    '- Reduce carbon impact',
+    '- Increase land protection and/or conservation',
+    '- Increase water protection an/or conservation',
+    '- Improve air quality',
+    '- Improve water quality',
+    '- Reduce hunger and malnutrition',
+    '- Increase access to nutritious food',
+    '- Increase access to drinkable/potable water',
+    '- Increase sustainable food systems',
+    '- Increase sustainable water systems',
+    '- Achieve equality/eliminate discrimination',
+    '- Increase active participation in society',
+    '- Increase peace through conflict resolution',
+    '- Reduce disease/improve health',
+    '- Increase access to quality, affordable healthcare and services',
+    '- Improve reproductive health',
+    '- Reduce risky and addictive behaviors',
+    '- Reduce trauma',
+    '- Protect and rescue animals',
+    '- Increase access to mental health services',
+    '- Advocate for/Promote Policy Change'
+    ]
+
+ORIGINAL_DEMOGRAPHICS = [
+    '- Seniors and Aging Populations',
+    '- Youth/Young People',
+    '- Indigenous Peoples',
+    '- Immigrants',
+    '- Migrants and Refugees',
+    '- People who identify as LGTBQ+',
+    '- People of Color',
+    '- Veterans',
+    '- Women and Girls',
+    '- People with Disabilities/Differently Abled',
+    '- People Experiencing Poverty',
+    '- People Experiencing Homelessness',
+    '- People Experiencing Obesity and/or Diabetes',
+    '- People Experiencing Hunger or Malnourishment',
+    '- People Experiencing Mental Illness',
+    '- People Experiencing Viruses and Diseases'
+    ]
 
 def init():
     global discovery
@@ -56,10 +131,14 @@ def init():
     with open(ca_to_impact_map_file) as json_file:
         cause_areas_to_impacts = json.load(json_file)
 
-    #Initialize the list of companies
-    # companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "WellsFargo", "Netflix", "Amazon"]
+    # Initialize the list of companies
+    companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "WellsFargo", "Netflix", "Amazon",
+        "KDP", "Oracle", "Nvidia", "Micron", "Honda", "Novartis", "GeneralMotors", "J&J", "Toyota", 
+        "Facebook", "Alphabet", "Pfizer", "AMD", "Qualcomm"]
     # companies = ["coke"]
-    companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "Netflix", "Amazon"]
+    #companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "Netflix", "Amazon"]
+    # companies = ["Nvidia"]
+    # companies = ["Pfizer"]
     
 
 
@@ -89,33 +168,57 @@ def extract_lines(input, start, end):
 
     return extracted_lines
 
-def create_mapping_file(company, cause_areas, cause_areas_explanation, demographics, demographics_explanation, impacts, impacts_explanation):
+def create_mapping_file(company, cause_areas, cause_areas_explanation,
+                        demographics, demographics_explanation,
+                        impacts, impacts_explanation):
+
         inference_file = open(f"../data/10K-inferences/{company}-10K-ESG-Mapping.txt", "w")
         inference_file.write(f"ESG mapping for {company}\n")
 
         #Dump cause areas
+        ULTIMATE_CAUSE_AREAS = []
         inference_file.write(f"\nCause areas {company} focuses on:\n")
         for cause_area in cause_areas:
-            inference_file.write(f"{cause_area}\n")
+            if cause_area not in ORIGINAL_CAUSE_AREAS:
+                continue
+            else:
+                ULTIMATE_CAUSE_AREAS.append(cause_area)
+                inference_file.write(f"{cause_area}\n")
+
         inference_file.write(f"\nExplanation:\n")
         for explanation in cause_areas_explanation:
-            inference_file.write(f"\n{explanation}\n")
+            if(explanation.split(':', 1)[0] in ULTIMATE_CAUSE_AREAS):
+                inference_file.write(f"\n{explanation}\n")
 
         #Dump demographics
+        ULTIMATE_DEMOGRAPHICS = []
         inference_file.write(f"\nDemographics {company} focuses on:\n")
         for audience in demographics:
-            inference_file.write(f"{audience}\n")
+            if audience not in ORIGINAL_DEMOGRAPHICS:
+                continue
+            else:
+                ULTIMATE_DEMOGRAPHICS.append(audience)
+                inference_file.write(f"{audience}\n")
+
         inference_file.write(f"\nExplanation:\n")
         for explanation in demographics_explanation:
-            inference_file.write(f"{explanation}\n")
+            if(explanation.split(':', 1)[0] in ULTIMATE_DEMOGRAPHICS):
+                inference_file.write(f"{explanation}\n")
 
         #Dump impacts
+        ULTIMATE_IMPACTS = []
         inference_file.write(f"\nImpact Areas {company} focuses on:\n")
         for impact in impacts:
-            inference_file.write(f"{impact}\n")
+            if impact not in ORIGINAL_IMPACT_AREAS:
+                continue
+            else:
+                ULTIMATE_IMPACTS.append(impact)
+                inference_file.write(f"{impact}\n")
+                
         inference_file.write(f"\nExplanation:\n")
         for explanation in impacts_explanation:
-            inference_file.write(f"{explanation}\n")
+            if(explanation.split(':', 1)[0] in ULTIMATE_IMPACTS):
+                inference_file.write(f"{explanation}\n")
 
         inference_file.close()
 
@@ -153,7 +256,25 @@ def main():
         impacts = []
         impacts_explanation = []
 
+        #print("---DEBUG---")
+        #print(query_result['results'])
+
+        # for key, value in query_result.items():
+        #     print(key)
+        #print(type(query_result['results']), len(query_result['results']))
+        #print(type(query_result['results'][0]))
+        #print(query_result['results'][0]['document_passages'])
+        #print(query_result['results'][0]['extracted_metadata']['filename'])
+
+        #print(query_result['results'][1]['document_passages'])
+        #print(query_result['results'][1]['extracted_metadata']['filename'])
+        #print(query_result['results']['extracted_metadata']['filename'])
+
+
+        #print("---END DEBUG---")
+
         for result in query_result['results']:
+
             file_name = result['extracted_metadata']['filename']
             log_file.write(f"\nFound relevant passages in source file: {file_name}")
 
@@ -170,7 +291,7 @@ def main():
 
                     cause_areas = cause_areas + extract_lines(response, "Cause Areas", "Explanation")
                     cause_areas_explanation = cause_areas_explanation + extract_lines(response, "Explanation", "go until end")
-
+                    
                     generated_prompt = augment(get_prompt(demographics_prompt_file), clean_passage)
                     response = watson_ai.generate(generated_prompt)
                     log_file.write(f"\nDemographics prompt:\n{generated_prompt} \nDemographics response:\n{response}")
@@ -192,7 +313,123 @@ def main():
                 cause_areas = list( dict.fromkeys(cause_areas) )
                 demographics = list( dict.fromkeys(demographics) )
                 impacts = list( dict.fromkeys(impacts) )
-                create_mapping_file(company, cause_areas, cause_areas_explanation, demographics, demographics_explanation, impacts, impacts_explanation)
+
+                # print("<---DEBUG 2---")
+
+                # print("cause areas: ", cause_areas)
+                # print(type(cause_areas))
+                # print(cause_areas[0], type(cause_areas[0]))
+                # # cause_areas is a list of strings, but each string has a leading hyphen and space-
+                # # which need to be removed
+                
+                # cleaned_cause_areas = [item.strip('- ').strip() for item in cause_areas if item] 
+
+                # for cause_area in cause_areas:
+                #     if cause_area in ORIGINAL_CAUSE_AREAS:
+                #         print("Cause Area: ", cause_area, " : VALID!")
+                #     else:
+                #         print("Cause Area: ", cause_area, " : NOT IN LIST!")           
+
+
+                # print("\n<------CAUSE AREAS EXPLANATION: ", cause_areas_explanation)
+                # print(cause_areas_explanation[0])
+                # print(type(cause_areas_explanation), type(cause_areas_explanation[0]))
+
+                # print("<--- END DEBUG---")
+                # print("<--- END DEBUG---")
+
+                cleaned_cause_areas_explanation = []
+                for explanation in cause_areas_explanation:
+                    # Check if the starting portion (from '-' to ':') matches any string in the original list
+                    if any(explanation.startswith(org) for org in ORIGINAL_CAUSE_AREAS):
+                        cleaned_cause_areas_explanation.append(explanation)
+                
+
+                ## MERGE DUPLICATE EXPLANATIONS
+                first_portion_dict = {}
+
+                for item in cleaned_cause_areas_explanation:
+                    # Find the index of ':' and extract the substring from the beginning to that index
+                    first_portion = item.split(':', 1)[0] + ':'
+                    
+                    # Check if the first portion is already in the dictionary
+                    if first_portion not in first_portion_dict:
+                        first_portion_dict[first_portion] = item
+                    else:
+                        # Concatenate the text after the first occurrence
+                        first_portion_dict[first_portion] += ' ' + item.split(':', 1)[1]
+
+                # Convert the values of the dictionary back to a list
+                result_list_CA = list(first_portion_dict.values())
+
+                # print("<<< CAUSE AREAS >>>")
+                # # Print the result
+                # for item in result_list:
+                #     print(item)
+
+                cleaned_demographics_explanation = []
+                for explanation in demographics_explanation:
+                    if any(explanation.startswith(org) for org in ORIGINAL_DEMOGRAPHICS):
+                        cleaned_demographics_explanation.append(explanation)
+
+                ## MERGE DUPLICATE EXPLANATIONS
+                first_portion_dict = {}
+
+                for item in cleaned_demographics_explanation:
+                    # Find the index of ':' and extract the substring from the beginning to that index
+                    first_portion = item.split(':', 1)[0] + ':'
+                    
+                    # Check if the first portion is already in the dictionary
+                    if first_portion not in first_portion_dict:
+                        first_portion_dict[first_portion] = item
+                    else:
+                        # Concatenate the text after the first occurrence
+                        first_portion_dict[first_portion] += ' ' + item.split(':', 1)[1]
+
+                # Convert the values of the dictionary back to a list
+                result_list_DEM = list(first_portion_dict.values())
+
+                # print("<<<  DEMOGRAPHICS  >>>")
+                # # Print the result
+                # for item in result_list:
+                #     print(item)
+
+
+
+                cleaned_impacts_explanation = []
+                for explanation in impacts_explanation:
+                    if any(explanation.startswith(org) for org in ORIGINAL_IMPACT_AREAS):
+                        cleaned_impacts_explanation.append(explanation)
+
+                ## MERGE DUPLICATE EXPLANATIONS
+                first_portion_dict = {}
+
+                for item in cleaned_impacts_explanation:
+                    # Find the index of ':' and extract the substring from the beginning to that index
+                    first_portion = item.split(':', 1)[0] + ':'
+                    
+                    # Check if the first portion is already in the dictionary
+                    if first_portion not in first_portion_dict:
+                        first_portion_dict[first_portion] = item
+                    else:
+                        # Concatenate the text after the first occurrence
+                        first_portion_dict[first_portion] += ' ' + item.split(':', 1)[1]
+
+                # Convert the values of the dictionary back to a list
+                result_list_IMP = list(first_portion_dict.values())
+
+                # print("<<< IMPACTS >>>")
+                # # Print the result
+                # for item in result_list:
+                #     print(item)
+
+                
+                create_mapping_file(
+                    company, 
+                    cause_areas, result_list_CA,
+                    demographics, result_list_DEM, 
+                    impacts, result_list_IMP
+                )
 
     print("Stage 1 mapping inference complete.")
     log_file.close()
