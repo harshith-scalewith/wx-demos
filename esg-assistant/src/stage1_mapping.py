@@ -132,7 +132,9 @@ def init():
         cause_areas_to_impacts = json.load(json_file)
 
     # Initialize the list of companies
-    companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "WellsFargo", "Netflix", "Amazon"]
+    companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "WellsFargo", "Netflix", "Amazon",
+        "KDP", "Oracle", "Nvidia", "Micron", "Honda", "Novartis", "GeneralMotors", "J&J", "Toyota", 
+        "Facebook", "Alphabet", "Pfizer", "AMD", "Qualcomm"]
     # companies = ["coke"]
     #companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "Netflix", "Amazon"]
     # companies = ["Nvidia"]
@@ -312,29 +314,29 @@ def main():
                 demographics = list( dict.fromkeys(demographics) )
                 impacts = list( dict.fromkeys(impacts) )
 
-                print("<---DEBUG 2---")
+                # print("<---DEBUG 2---")
 
-                print("cause areas: ", cause_areas)
-                print(type(cause_areas))
-                print(cause_areas[0], type(cause_areas[0]))
-                # cause_areas is a list of strings, but each string has a leading hyphen and space-
-                # which need to be removed
+                # print("cause areas: ", cause_areas)
+                # print(type(cause_areas))
+                # print(cause_areas[0], type(cause_areas[0]))
+                # # cause_areas is a list of strings, but each string has a leading hyphen and space-
+                # # which need to be removed
                 
-                cleaned_cause_areas = [item.strip('- ').strip() for item in cause_areas if item] 
+                # cleaned_cause_areas = [item.strip('- ').strip() for item in cause_areas if item] 
 
-                for cause_area in cause_areas:
-                    if cause_area in ORIGINAL_CAUSE_AREAS:
-                        print("Cause Area: ", cause_area, " : VALID!")
-                    else:
-                        print("Cause Area: ", cause_area, " : NOT IN LIST!")           
+                # for cause_area in cause_areas:
+                #     if cause_area in ORIGINAL_CAUSE_AREAS:
+                #         print("Cause Area: ", cause_area, " : VALID!")
+                #     else:
+                #         print("Cause Area: ", cause_area, " : NOT IN LIST!")           
 
 
-                print("\n<------CAUSE AREAS EXPLANATION: ", cause_areas_explanation)
-                print(cause_areas_explanation[0])
-                print(type(cause_areas_explanation), type(cause_areas_explanation[0]))
+                # print("\n<------CAUSE AREAS EXPLANATION: ", cause_areas_explanation)
+                # print(cause_areas_explanation[0])
+                # print(type(cause_areas_explanation), type(cause_areas_explanation[0]))
 
-                print("<--- END DEBUG---")
-                print("<--- END DEBUG---")
+                # print("<--- END DEBUG---")
+                # print("<--- END DEBUG---")
 
                 cleaned_cause_areas_explanation = []
                 for explanation in cause_areas_explanation:
