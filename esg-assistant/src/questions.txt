@@ -1,1 +1,3 @@
+What cause areas %s focus on?
+What demographics %s focus on?
 What impact areas %s focus on?
