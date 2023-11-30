@@ -6,7 +6,7 @@ import re
 company_order = [
     "Novartis", "J&J", "Pfizer", "WellsFargo", "Ford", "Honda", "GeneralMotors", "Toyota",
     "Verizon", "Netflix", "Apple", "Microsoft", "Amazon", "Facebook", "Alphabet", "KDP",
-    "Coke", "Oracle", "Nvidia", "Micron", "AMD", "Qualcomm"
+    "coke", "Oracle", "Nvidia", "Micron", "AMD", "Qualcomm"
 ]
 
 def extract_section_and_explanation(content, section_start, next_section_start):
@@ -55,7 +55,7 @@ def write_to_csv(data, file_name):
                 items, explanation = data[company]
                 writer.writerow([company, items, explanation])
 
-directory_path = '/Users/pvsh/PycharmProjects/wx-demos-release/esg-assistant/data/10K-inferences'  # Replace with the path to your directory
+directory_path = '../data/10K-inferences'  # Replace with the path to your directory
 all_data = {'cause_areas': {}, 'demographics': {}, 'impact_areas': {}}
 
 for filename in os.listdir(directory_path):
